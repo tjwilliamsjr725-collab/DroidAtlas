@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta name="droidatlas-release" content="1.1">
+  <meta name="droidatlas-release" content="1.1.1">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#111827">
-<title>DroidAtlas Alpha</title>
+<meta name="theme-color" content="#07121b">
+<title>DroidAtlas</title>
 <style>
 :root {
   --bg:#0b1020; --panel:#121a2d; --panel2:#182238; --text:#f8fafc; --muted:#9fb0c7;
@@ -620,6 +620,14 @@ footer::before{
 .dxTypeIconic.active{border-color:#e8c75d!important;color:#ffe69a!important;box-shadow:0 0 0 1px rgba(232,199,93,.18) inset}
 </style>
 
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="./icon-512.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<meta name="application-name" content="DroidAtlas">
+<meta name="apple-mobile-web-app-title" content="DroidAtlas">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 </head>
 <body>
 <div class="wrap">
@@ -1006,6 +1014,13 @@ document.querySelectorAll('#dxRarityFilters .dxFilter').forEach(b=>b.onclick=()=
 document.querySelectorAll('#dxTypeFilters .dxFilter').forEach(b=>b.onclick=()=>{dxType=b.dataset.type;document.querySelectorAll('#dxTypeFilters .dxFilter').forEach(x=>x.classList.toggle('active',x===b));renderDroidex()});
 function showDroidexTab(){rebirthView.hidden=true;fusionView.hidden=true;droidexView.hidden=false;rebirthTab.classList.remove('active');fusionTab.classList.remove('active');droidexTab.classList.add('active');rebirthTab.setAttribute('aria-selected','false');fusionTab.setAttribute('aria-selected','false');droidexTab.setAttribute('aria-selected','true');localStorage.setItem('droidatlas-tab','droidex');renderDroidex();window.scrollTo({top:0,behavior:'smooth'})}
 droidexTab.onclick=showDroidexTab;const dxOldRebirth=rebirthTab.onclick;rebirthTab.onclick=()=>{droidexView.hidden=true;dxOldRebirth()};const dxOldFusion=fusionTab.onclick;fusionTab.onclick=()=>{droidexView.hidden=true;dxOldFusion()};if(localStorage.getItem('droidatlas-tab')==='droidex')showDroidexTab();else renderDroidex();
+</script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js', {scope:'./'}).catch(console.error);
+  });
+}
 </script>
 </body>
 </html>

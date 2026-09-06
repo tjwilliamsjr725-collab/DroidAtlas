@@ -1,5 +1,12 @@
-# DroidAtlas PWA 1.1
+# DroidAtlas PWA 1.1.1
 
-DroidAtlas 1.1 adds Droidex type filtering for Standard, Fusion, and Iconic droids, adds the known Iconics to Droidex, and shows Fusion recipes inline beside Fusion droid names.
+Packaging fix for DroidAtlas 1.1.
 
-The existing `droidatlas-droidex-v1` localStorage key is preserved so prior Droidex progress carries forward.
+- Correct app/browser title: `DroidAtlas`
+- Explicit web app manifest link
+- Explicit DroidAtlas icons
+- Service worker registration restored
+- Service worker cache bumped to 1.1.1
+- Existing Droidex storage key preserved
+
+No DroidAtlas feature or collection data was intentionally changed from 1.1.
