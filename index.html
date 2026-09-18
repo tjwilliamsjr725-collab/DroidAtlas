@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta name="droidatlas-release" content="1.1.1">
+  <meta name="droidatlas-release" content="1.2">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#07121b">
@@ -628,6 +628,197 @@ footer::before{
 <meta name="apple-mobile-web-app-title" content="DroidAtlas">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
+
+<style id="droidatlas-1-2-polish">
+:root{
+  --da-orange:#ff7a18;
+  --da-blue:#39a9ff;
+  --da-green:#35d6a0;
+  --da-steel:#8ba2b7;
+}
+body{
+  background:
+    radial-gradient(ellipse at 50% -8%,rgba(57,169,255,.10),transparent 34%),
+    linear-gradient(rgba(139,162,183,.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(139,162,183,.025) 1px,transparent 1px),
+    #061019 !important;
+  background-size:auto,24px 24px,24px 24px,auto !important;
+}
+header{
+  position:relative;
+  overflow:hidden;
+}
+header:after{
+  content:"";
+  position:absolute;
+  left:8%;right:8%;bottom:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--da-blue),var(--da-orange),transparent);
+  opacity:1;
+}
+.tabs{
+  box-shadow:0 12px 30px rgba(0,0,0,.20),inset 0 1px rgba(255,255,255,.025) !important;
+}
+.tabBtn{
+  position:relative;
+  transition:transform .13s ease,box-shadow .16s ease,filter .16s ease !important;
+}
+.tabBtn:not(.active){
+  box-shadow:none !important;
+  filter:saturate(.72) brightness(.88);
+}
+.tabBtn.active{
+  transform:translateY(-1px);
+}
+.tabBtn.active:after{
+  content:"";
+  position:absolute;
+  left:20%;right:20%;bottom:1px;
+  height:2px;
+  border-radius:2px;
+  background:currentColor;
+  box-shadow:0 0 8px currentColor;
+  opacity:1;
+}
+#droidexTab.active{
+  background:linear-gradient(180deg,#0d5746,#07352b)!important;
+  border-color:var(--da-green)!important;
+  color:#d9fff2!important;
+  box-shadow:inset 0 0 14px rgba(53,214,160,.20),0 0 12px rgba(53,214,160,.14)!important;
+}
+.hero,.card,.fusionCard,.dxCard{
+  box-shadow:0 12px 28px rgba(0,0,0,.19),inset 0 1px rgba(255,255,255,.018);
+}
+.dxCard{
+  position:relative;
+  overflow:hidden;
+}
+.dxCard:before{
+  content:"";
+  position:absolute;
+  left:0;top:10%;bottom:10%;
+  width:2px;
+  background:linear-gradient(180deg,transparent,rgba(53,214,160,.75),transparent);
+}
+.dxCardHead{gap:7px}
+.dxBulkBtn{
+  margin-left:auto;
+  border:1px solid #3a4a63;
+  background:linear-gradient(180deg,#142234,#0c1724);
+  color:#c9d6e5;
+  border-radius:999px;
+  padding:5px 8px;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  transition:transform .12s ease,border-color .15s ease,box-shadow .15s ease;
+}
+.dxBulkBtn.complete{
+  border-color:#2e8f73;
+  color:#80e1bd;
+  box-shadow:0 0 10px rgba(53,214,160,.10);
+}
+.dxFilter{
+  transition:transform .12s ease,box-shadow .15s ease,border-color .15s ease;
+}
+.dxFilter.active{
+  box-shadow:0 0 11px rgba(53,214,160,.10);
+}
+.tabBtn:active,.dxFilter:active,.dxBulkBtn:active{transform:translateY(1px)}
+@media (prefers-reduced-motion:reduce){
+  .tabBtn,.dxFilter,.dxBulkBtn{transition:none!important}
+}
+</style>
+
+
+<style id="droidatlas-background-final">
+/* Tactical holographic blueprint background */
+body{
+  position:relative;
+  isolation:isolate;
+  background:
+    radial-gradient(circle at 50% -12%,rgba(57,169,255,.19),transparent 31%),
+    radial-gradient(circle at 92% 48%,rgba(255,122,24,.09),transparent 25%),
+    linear-gradient(rgba(139,162,183,.050) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(139,162,183,.050) 1px,transparent 1px),
+    #061019 !important;
+  background-size:auto,auto,24px 24px,24px 24px,auto !important;
+}
+body:before{
+  content:"";
+  position:fixed;
+  z-index:-2;
+  width:430px;
+  height:430px;
+  right:-190px;
+  top:20%;
+  border:1px solid rgba(57,169,255,.15);
+  border-radius:50%;
+  box-shadow:
+    0 0 0 34px rgba(57,169,255,.040),
+    0 0 0 78px rgba(57,169,255,.028),
+    inset 0 0 40px rgba(57,169,255,.040);
+  background:
+    linear-gradient(90deg,transparent 49.7%,rgba(57,169,255,.095) 50%,transparent 50.3%),
+    linear-gradient(transparent 49.7%,rgba(57,169,255,.095) 50%,transparent 50.3%),
+    repeating-conic-gradient(from 0deg,rgba(57,169,255,.095) 0deg 1deg,transparent 1deg 15deg);
+  opacity:1;
+  pointer-events:none;
+}
+body:after{
+  content:"DROIDATLAS";
+  position:fixed;
+  z-index:-2;
+  left:-24px;
+  bottom:13%;
+  transform:rotate(-90deg);
+  transform-origin:left bottom;
+  color:rgba(139,162,183,.085);
+  font:900 52px/1 system-ui,sans-serif;
+  letter-spacing:.20em;
+  white-space:nowrap;
+  pointer-events:none;
+}
+#app:before{
+  content:"";
+  position:fixed;
+  z-index:-1;
+  left:0;
+  right:0;
+  top:118px;
+  height:190px;
+  pointer-events:none;
+  opacity:.72;
+  background:
+    linear-gradient(115deg,transparent 0 18%,rgba(57,169,255,.11) 18.2% 18.45%,transparent 18.7% 100%),
+    linear-gradient(65deg,transparent 0 73%,rgba(255,122,24,.09) 73.2% 73.45%,transparent 73.7% 100%),
+    repeating-linear-gradient(90deg,transparent 0 44px,rgba(139,162,183,.065) 44px 45px,transparent 45px 92px);
+  mask-image:linear-gradient(to bottom,transparent,#000 22%,#000 78%,transparent);
+}
+</style>
+
+
+<style id="droidatlas-background-final-extra">
+#app:after{
+  content:"";
+  position:fixed;
+  z-index:-1;
+  width:240px;
+  height:240px;
+  left:-118px;
+  bottom:7%;
+  border:1px solid rgba(255,122,24,.11);
+  border-radius:50%;
+  pointer-events:none;
+  background:
+    radial-gradient(circle,transparent 0 31%,rgba(255,122,24,.045) 31.5% 32%,transparent 32.5% 48%,rgba(255,122,24,.055) 48.5% 49%,transparent 49.5%),
+    repeating-conic-gradient(rgba(255,122,24,.07) 0deg 1deg,transparent 1deg 20deg);
+  box-shadow:0 0 34px rgba(255,122,24,.035);
+}
+</style>
+
 </head>
 <body>
 <div class="wrap">
@@ -638,7 +829,7 @@ footer::before{
     <div class="commandBrandText">
       <div class="commandWordmark"><span>DROID</span>ATLAS</div>
       <div class="commandSub">INDUSTRIAL DROID COMMAND TERMINAL</div>
-      <div class="commandMeta">DROIDATLAS 1.0</div>
+      <div class="commandMeta">DROIDATLAS 1.2</div>
     </div>
   </div>
   <button class="infoBtn" id="infoBtn" aria-label="About this alpha">ⓘ</button>
@@ -671,7 +862,7 @@ footer::before{
   <section class="fusionIntro">
     <div class="fusionTitle">Fusion Recipes</div>
     <div class="fusionCount">17 known recipes</div>
-    <p>Known community recipes for Fusion-only droids. These remain <b>Pending</b> until verified in game or by a developer source.</p>
+    <p>Fusion-only droid recipes validated in game.</p>
   </section>
   
       <section class="fusionGroup">
@@ -684,7 +875,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">Mouse</span> + <span class="ingredient">Mouse</span> + <span class="ingredient">ARG</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -693,7 +884,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">ID10</span> + <span class="ingredient">ID10</span> + <span class="ingredient">2BB</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -702,7 +893,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">B1 Battle</span> + <span class="ingredient">R9</span> + <span class="ingredient">BDX Explorer</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section></div>
       </section>
       <section class="fusionGroup">
@@ -715,7 +906,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">B1 Heavy</span> + <span class="ingredient">Gunrunner</span> + <span class="ingredient">BB</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -724,7 +915,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">Gonk</span> + <span class="ingredient">Groundmech</span> + <span class="ingredient">R6</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -733,7 +924,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">ARG</span> + <span class="ingredient">ARG</span> + <span class="ingredient">B2 Heavy</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -742,7 +933,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">R2</span> + <span class="ingredient">R2</span> + <span class="ingredient">B2 Super</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section></div>
       </section>
       <section class="fusionGroup">
@@ -755,7 +946,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">BB9</span> + <span class="ingredient">Pit</span> + <span class="ingredient">B1 Battle</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -764,7 +955,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">R7</span> + <span class="ingredient">B-U4D</span> + <span class="ingredient">B-U4D</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -773,7 +964,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">CB</span> + <span class="ingredient">Gunrunner</span> + <span class="ingredient">B2-RP</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -782,7 +973,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">Groundmech</span> + <span class="ingredient">Groundmech</span> + <span class="ingredient">BB9</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section></div>
       </section>
       <section class="fusionGroup">
@@ -795,7 +986,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">KX</span> + <span class="ingredient">IG</span> + <span class="ingredient">RIC</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -804,7 +995,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">Loadlifter</span> + <span class="ingredient">ID10</span> + <span class="ingredient">R5</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -813,7 +1004,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">KX</span> + <span class="ingredient">KX</span> + <span class="ingredient">Gonk</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -822,7 +1013,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">RIC-1200</span> + <span class="ingredient">B1 Heavy</span> + <span class="ingredient">B1 Heavy</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -831,7 +1022,7 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">RIC</span> + <span class="ingredient">BDX</span> + <span class="ingredient">R7</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section>
         <section class="fusionCard">
           <div class="fusionTop">
@@ -840,15 +1031,15 @@ footer::before{
           </div>
           <div class="fusionArrow">FUSION RECIPE</div>
           <div class="ingredients"><span class="ingredient">A-LT</span> + <span class="ingredient">A-LT</span> + <span class="ingredient">Loadlifter</span></div>
-          <div class="fusionStatus">Pending · Community</div>
+          <div class="fusionStatus">Verified · In Game</div>
         </section></div>
       </section>
 </div>
 
 <div id="droidexView" class="appView" hidden>
-<section class="dxIntro"><div class="dxKicker">DROIDEX MODULE // COLLECTION LOG</div><div class="dxTitle">Droidex</div><div class="dxSummary"><span id="dxCount">0 / 561</span> exact variants acquired</div><p>Check an entry only after acquiring that exact droid and exact variant. This records collection history, not current inventory.</p></section>
+<section class="dxIntro"><div class="dxKicker">DROIDEX MODULE // COLLECTION LOG</div><div class="dxTitle">Droidex</div><div class="dxSummary"><span id="dxCount">0 / 589</span> exact variants acquired</div><p>Check an entry only after acquiring that exact droid and exact variant. This records collection history, not current inventory.</p></section>
 <section class="dxTools"><input id="dxSearch" type="search" placeholder="Search droids…" autocomplete="off">
-<div class="dxFilters" id="dxClassFilters"><button class="dxFilter active" data-class="All">All</button><button class="dxFilter" data-class="Worker">Worker</button><button class="dxFilter" data-class="Astromech">Astromech</button><button class="dxFilter" data-class="Battle">Battle</button></div>
+<div class="dxFilters" id="dxClassFilters"><button class="dxFilter active" data-class="All">All</button><button class="dxFilter" data-class="Worker">Worker</button><button class="dxFilter" data-class="Astromech">Astromech</button><button class="dxFilter" data-class="Battle">Battle</button><button class="dxFilter" data-class="Protocol">Protocol</button></div>
 <div class="dxFilters" id="dxRarityFilters"><button class="dxFilter active" data-rarity="All">All Rarities</button><button class="dxFilter" data-rarity="Common">Common</button><button class="dxFilter" data-rarity="Rare">Rare</button><button class="dxFilter" data-rarity="Epic">Epic</button><button class="dxFilter" data-rarity="Legendary">Legendary</button><button class="dxFilter" data-rarity="Mythic">Mythic</button></div>
 <div class="dxFilters" id="dxTypeFilters"><button class="dxFilter active" data-type="All">All Types</button><button class="dxFilter" data-type="Standard">Standard</button><button class="dxFilter dxTypeFusion" data-type="Fusion">Fusion</button><button class="dxFilter dxTypeIconic" data-type="Iconic">Iconic</button></div>
 <label class="dxMissing"><input id="dxMissingOnly" type="checkbox"> Missing only</label></section><div id="droidexList"></div></div>
@@ -858,7 +1049,7 @@ footer::before{
 <dialog id="info">
 <h3>What this alpha does</h3>
 <p><b>Rebirth Planner:</b> choose your Super Rebirth cycle and Rebirth level, then see the three required droids, minimum variants, Credit requirement, and when each required droid is safe to sell in the selected cycle.</p>
-<p><b>Fusion Recipes:</b> browse all 17 currently known community Fusion recipes, grouped by resulting rarity. Fusion recipes are marked Pending until verified in game or by a developer source.</p><p><b>Alpha 0.5:</b> adds the DroidAtlas Industrial Command visual identity. Rebirth uses the orange command module; Fusion uses the blue command module. Functionality and data are unchanged from Alpha 0.4.</p>
+<p><b>Fusion Recipes:</b> browse all 17 in-game-validated Fusion recipes, grouped by resulting rarity.</p><p><b>Alpha 0.5:</b> adds the DroidAtlas Industrial Command visual identity. Rebirth uses the orange command module; Fusion uses the blue command module. Functionality and data are unchanged from Alpha 0.4.</p>
 <p><b>Sell badge:</b> the number is the last Rebirth where that droid is required. The badge material/color shows the minimum variant required at that final Rebirth. Sell it <i>after</i> completing the number shown.</p>
 <p><b>Minimum variant</b> means that variant <i>or any higher variant</i>. Stellar is currently the highest standard variant.</p>
 <p><b>Source status:</b> exact requirement rows are currently seeded from the community tracker and remain Pending until promoted. Credit values through RB27 are confirmed unchanged in game.</p>
@@ -979,7 +1170,7 @@ fusionTab.onclick=()=>showAppTab('fusion');
 const savedTab=localStorage.getItem('droidatlas-tab');
 if(savedTab==='fusion') showAppTab('fusion');
 
-const DROIDEX_ROSTER=[{"name":"Mouse","class":"Worker","rarity":"Common","type":"Standard"},{"name":"Pit","class":"Worker","rarity":"Common","type":"Standard"},{"name":"Gonk","class":"Worker","rarity":"Common","type":"Standard"},{"name":"CB","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"R3","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"R5","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"R8","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"Imperial Probe","class":"Battle","rarity":"Common","type":"Standard"},{"name":"B1 Battle","class":"Battle","rarity":"Common","type":"Standard"},{"name":"DRK-1 Probe","class":"Battle","rarity":"Common","type":"Standard"},{"name":"ID10","class":"Battle","rarity":"Common","type":"Standard"},{"name":"BDX Explorer","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"ARG","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"Senate Hovercam","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"B-U4D","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"Bal-Core","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"ROLL-R","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"WHL-EX","class":"Worker","rarity":"Rare","type":"Fusion"},{"name":"2BB","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"A-LT","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"R4","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"R9","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"ZRO-TEC","class":"Astromech","rarity":"Rare","type":"Fusion"},{"name":"B1 Security","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"NAV-EX","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"VECT-ARM","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"HOV-R","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"BTL-R","class":"Battle","rarity":"Rare","type":"Fusion"},{"name":"Groundmech","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"LO","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"AMP Walker","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"SEN-TRI","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"Opti-Pod","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"Gunrunner","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"N-UL","class":"Worker","rarity":"Epic","type":"Fusion"},{"name":"BB","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"R2","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"R6","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"TRAK-R","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"ORB-Walker","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"Util-Tec","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"SCRP-R","class":"Astromech","rarity":"Epic","type":"Fusion"},{"name":"B1 Heavy","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"B2 Super","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"B2 Heavy","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"Strike-Orb","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"Haul-R","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"LNG-Shot","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"ARM-CORE","class":"Battle","rarity":"Epic","type":"Fusion"},{"name":"OPT-R","class":"Battle","rarity":"Epic","type":"Fusion"},{"name":"Proto-Roller","class":"Worker","rarity":"Legendary","type":"Standard"},{"name":"Mecha-Droid","class":"Worker","rarity":"Legendary","type":"Standard"},{"name":"Mono-WLKR","class":"Worker","rarity":"Legendary","type":"Standard"},{"name":"RO-TOR","class":"Worker","rarity":"Legendary","type":"Fusion"},{"name":"FUS-3","class":"Worker","rarity":"Legendary","type":"Fusion"},{"name":"BB9","class":"Astromech","rarity":"Legendary","type":"Standard"},{"name":"R7","class":"Astromech","rarity":"Legendary","type":"Standard"},{"name":"QIK-BIT","class":"Astromech","rarity":"Legendary","type":"Fusion"},{"name":"B2-RP","class":"Battle","rarity":"Legendary","type":"Standard"},{"name":"Cyclo-Grav","class":"Battle","rarity":"Legendary","type":"Standard"},{"name":"Opti-STRK","class":"Battle","rarity":"Legendary","type":"Standard"},{"name":"ORB-XL","class":"Battle","rarity":"Legendary","type":"Fusion"},{"name":"Snow Mouse","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"RIC","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"Loadlifter","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"LEP","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"RIC-1200","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"RIV-3T","class":"Worker","rarity":"Mythic","type":"Fusion"},{"name":"LUG-G","class":"Worker","rarity":"Mythic","type":"Fusion"},{"name":"LOW-MO","class":"Worker","rarity":"Mythic","type":"Fusion"},{"name":"DRFT-R","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"Cyclens","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"MO-TRAK","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"TRI-TEK","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"AXL-POD","class":"Astromech","rarity":"Mythic","type":"Fusion"},{"name":"IG","class":"Battle","rarity":"Mythic","type":"Standard"},{"name":"KX","class":"Battle","rarity":"Mythic","type":"Standard"},{"name":"SRV-O","class":"Battle","rarity":"Mythic","type":"Fusion"},{"name":"X-ONK","class":"Battle","rarity":"Mythic","type":"Fusion"},{"name":"DJ R-3X","class":"Worker","rarity":"Iconic","type":"Iconic"},{"name":"C-3PO","class":"Worker","rarity":"Iconic","type":"Iconic"},{"name":"BB-8","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"CB-23","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"R2-D2","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"Chopper","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"Mister Bones","class":"Battle","rarity":"Iconic","type":"Iconic"},{"name":"IG-11 Marshal","class":"Battle","rarity":"Iconic","type":"Iconic"}];const DROIDEX_VARIANTS=["Default", "Gold", "Diamond", "Rainbow", "Beskar", "Galactic", "Stellar"];
+const DROIDEX_ROSTER=[{"name":"Mouse","class":"Worker","rarity":"Common","type":"Standard"},{"name":"Pit","class":"Worker","rarity":"Common","type":"Standard"},{"name":"Gonk","class":"Worker","rarity":"Common","type":"Standard"},{"name":"CB","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"R3","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"R5","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"R8","class":"Astromech","rarity":"Common","type":"Standard"},{"name":"Imperial Probe","class":"Battle","rarity":"Common","type":"Standard"},{"name":"B1 Battle","class":"Battle","rarity":"Common","type":"Standard"},{"name":"DRK-1 Probe","class":"Battle","rarity":"Common","type":"Standard"},{"name":"ID10","class":"Battle","rarity":"Common","type":"Standard"},{"name":"BDX Explorer","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"ARG","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"Senate Hovercam","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"B-U4D","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"Bal-Core","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"ROLL-R","class":"Worker","rarity":"Rare","type":"Standard"},{"name":"WHL-EX","class":"Worker","rarity":"Rare","type":"Fusion"},{"name":"2BB","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"A-LT","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"R4","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"R9","class":"Astromech","rarity":"Rare","type":"Standard"},{"name":"ZRO-TEC","class":"Astromech","rarity":"Rare","type":"Fusion"},{"name":"B1 Security","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"NAV-EX","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"VECT-ARM","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"HOV-R","class":"Battle","rarity":"Rare","type":"Standard"},{"name":"BTL-R","class":"Battle","rarity":"Rare","type":"Fusion"},{"name":"Groundmech","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"LO","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"AMP Walker","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"SEN-TRI","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"Opti-Pod","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"Gunrunner","class":"Worker","rarity":"Epic","type":"Standard"},{"name":"N-UL","class":"Worker","rarity":"Epic","type":"Fusion"},{"name":"BB","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"R2","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"R6","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"TRAK-R","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"ORB-Walker","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"Util-Tec","class":"Astromech","rarity":"Epic","type":"Standard"},{"name":"SCRP-R","class":"Astromech","rarity":"Epic","type":"Fusion"},{"name":"B1 Heavy","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"B2 Super","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"B2 Heavy","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"Strike-Orb","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"Haul-R","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"LNG-Shot","class":"Battle","rarity":"Epic","type":"Standard"},{"name":"ARM-CORE","class":"Battle","rarity":"Epic","type":"Fusion"},{"name":"OPT-R","class":"Battle","rarity":"Epic","type":"Fusion"},{"name":"Proto-Roller","class":"Worker","rarity":"Legendary","type":"Standard"},{"name":"Mecha-Droid","class":"Worker","rarity":"Legendary","type":"Standard"},{"name":"Mono-WLKR","class":"Worker","rarity":"Legendary","type":"Standard"},{"name":"RO-TOR","class":"Worker","rarity":"Legendary","type":"Fusion"},{"name":"FUS-3","class":"Worker","rarity":"Legendary","type":"Fusion"},{"name":"BB9","class":"Astromech","rarity":"Legendary","type":"Standard"},{"name":"R7","class":"Astromech","rarity":"Legendary","type":"Standard"},{"name":"QIK-BIT","class":"Astromech","rarity":"Legendary","type":"Fusion"},{"name":"B2-RP","class":"Battle","rarity":"Legendary","type":"Standard"},{"name":"Cyclo-Grav","class":"Battle","rarity":"Legendary","type":"Standard"},{"name":"Opti-STRK","class":"Battle","rarity":"Legendary","type":"Standard"},{"name":"ORB-XL","class":"Battle","rarity":"Legendary","type":"Fusion"},{"name":"Snow Mouse","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"RIC","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"Loadlifter","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"LEP","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"RIC-1200","class":"Worker","rarity":"Mythic","type":"Standard"},{"name":"RIV-3T","class":"Worker","rarity":"Mythic","type":"Fusion"},{"name":"LUG-G","class":"Worker","rarity":"Mythic","type":"Fusion"},{"name":"LOW-MO","class":"Worker","rarity":"Mythic","type":"Fusion"},{"name":"DRFT-R","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"Cyclens","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"MO-TRAK","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"TRI-TEK","class":"Astromech","rarity":"Mythic","type":"Standard"},{"name":"AXL-POD","class":"Astromech","rarity":"Mythic","type":"Fusion"},{"name":"IG","class":"Battle","rarity":"Mythic","type":"Standard"},{"name":"KX","class":"Battle","rarity":"Mythic","type":"Standard"},{"name":"SRV-O","class":"Battle","rarity":"Mythic","type":"Fusion"},{"name":"X-ONK","class":"Battle","rarity":"Mythic","type":"Fusion"},{"name":"DJ R-3X","class":"Worker","rarity":"Iconic","type":"Iconic"},{"name":"C-3PO","class":"Protocol","rarity":"Iconic","type":"Iconic"},{"name":"BB-8","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"CB-23","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"R2-D2","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"Chopper","class":"Astromech","rarity":"Iconic","type":"Iconic"},{"name":"Mister Bones","class":"Battle","rarity":"Iconic","type":"Iconic"},{"name":"IG-11 Marshal","class":"Battle","rarity":"Iconic","type":"Iconic"},{"name":"SA-5","class":"Protocol","rarity":"Rare","type":"Standard"},{"name":"LOM","class":"Protocol","rarity":"Epic","type":"Standard"},{"name":"PZ","class":"Protocol","rarity":"Legendary","type":"Standard"},{"name":"TDA","class":"Protocol","rarity":"Mythic","type":"Standard"}];const DROIDEX_VARIANTS=["Default", "Gold", "Diamond", "Rainbow", "Beskar", "Galactic", "Stellar"];
 const DROIDEX_FUSION_RECIPES={"WHL-EX":"Mouse + Mouse + ARG","ZRO-TEC":"ID10 + ID10 + 2BB","BTL-R":"B1 Battle + R9 + BDX Explorer","N-UL":"B1 Heavy + Gunrunner + BB","SCRP-R":"Gonk + Groundmech + R6","ARM-CORE":"ARG + ARG + B2 Heavy","OPT-R":"R2 + R2 + B2 Super","RO-TOR":"BB9 + Pit + B1 Battle","FUS-3":"R7 + B-U4D + B-U4D","ORB-XL":"CB + Gunrunner + B2-RP","QIK-BIT":"Groundmech + Groundmech + BB9","RIV-3T":"KX + IG + RIC","LUG-G":"Loadlifter + ID10 + R5","X-ONK":"KX + KX + Gonk","SRV-O":"RIC-1200 + B1 Heavy + B1 Heavy","AXL-POD":"RIC + BDX + R7","LOW-MO":"A-LT + A-LT + Loadlifter"};
 const droidexTab=document.getElementById('droidexTab'),droidexView=document.getElementById('droidexView'),dxList=document.getElementById('droidexList'),dxSearch=document.getElementById('dxSearch'),dxMissingOnly=document.getElementById('dxMissingOnly');
 const DX_KEY='droidatlas-droidex-v1';let dxState={};try{dxState=JSON.parse(localStorage.getItem(DX_KEY)||'{}')||{}}catch(e){dxState={}}let dxClass='All',dxRarity='All',dxType='All';
@@ -988,6 +1179,14 @@ const dxVariantsFor=d=>d.type==='Iconic'?['Default']:DROIDEX_VARIANTS;
 function saveDx(){localStorage.setItem(DX_KEY,JSON.stringify(dxState))}
 function updateDxCount(){const total=DROIDEX_ROSTER.reduce((n,d)=>n+dxVariantsFor(d).length,0);document.getElementById('dxCount').textContent=Object.values(dxState).filter(Boolean).length+' / '+total}
 function toggleDx(n,v){const k=dxKey(n,v);dxState[k]=!dxState[k];if(!dxState[k])delete dxState[k];saveDx();renderDroidex()}
+function bulkDx(n,mode){
+  const d=DROIDEX_ROSTER.find(x=>x.name===n);if(!d)return;
+  for(const v of dxVariantsFor(d)){
+    const k=dxKey(n,v);
+    if(mode==='check')dxState[k]=true;else delete dxState[k];
+  }
+  saveDx();renderDroidex();
+}
 function renderDroidex(){
  const q=dxSearch.value.trim().toLowerCase(),missing=dxMissingOnly.checked;
  const f=DROIDEX_ROSTER.filter(d=>(!q||d.name.toLowerCase().includes(q))&&(dxClass==='All'||d.class===dxClass)&&(dxRarity==='All'||d.rarity===dxRarity)&&(dxType==='All'||d.type===dxType)&&(!missing||!dxVariantsFor(d).every(v=>!!dxState[dxKey(d.name,v)])));
@@ -998,7 +1197,10 @@ function renderDroidex(){
   for(const d of rows){
    const recipe=d.type==='Fusion'?DROIDEX_FUSION_RECIPES[d.name]:'';
    const nameHtml=d.type==='Fusion'?`<div class="dxNameWrap"><div class="dxName">${d.name}</div><div class="dxFusionRecipe" title="${recipe}">${recipe}</div></div>`:`<div class="dxName">${d.name}</div>`;
-   s+=`<section class="dxCard"><div class="dxCardHead">${nameHtml}<div class="dxMeta"><span class="dxPill">${d.class}</span><span class="dxPill">${d.rarity}</span></div></div><div class="dxVariants">`;
+   const allDone=dxVariantsFor(d).every(v=>!!dxState[dxKey(d.name,v)]);
+   const bulkLabel=allDone?'Clear All':'Check All';
+   const bulkMode=allDone?'clear':'check';
+   s+=`<section class="dxCard"><div class="dxCardHead">${nameHtml}<div class="dxMeta"><span class="dxPill">${d.class}</span><span class="dxPill">${d.rarity}</span></div><button class="dxBulkBtn${allDone?' complete':''}" data-bulk-droid="${d.name}" data-bulk-mode="${bulkMode}">${bulkLabel}</button></div><div class="dxVariants">`;
    for(const v of dxVariantsFor(d)){const filled=!!dxState[dxKey(d.name,v)];s+=`<button class="dxVariant${filled?' filled':''}" data-droid="${d.name}" data-variant="${v}">${v}</button>`}
    s+='</div></section>'
   }
@@ -1006,6 +1208,7 @@ function renderDroidex(){
  }
  dxList.innerHTML=s||'<div class="dxEmpty">No droids match these filters.</div>';
  dxList.querySelectorAll('.dxVariant').forEach(b=>b.onclick=()=>toggleDx(b.dataset.droid,b.dataset.variant));
+ dxList.querySelectorAll('.dxBulkBtn').forEach(b=>b.onclick=()=>bulkDx(b.dataset.bulkDroid,b.dataset.bulkMode));
  updateDxCount()
 }
 dxSearch.addEventListener('input',renderDroidex);dxMissingOnly.addEventListener('change',renderDroidex);
@@ -1013,7 +1216,12 @@ document.querySelectorAll('#dxClassFilters .dxFilter').forEach(b=>b.onclick=()=>
 document.querySelectorAll('#dxRarityFilters .dxFilter').forEach(b=>b.onclick=()=>{dxRarity=b.dataset.rarity;document.querySelectorAll('#dxRarityFilters .dxFilter').forEach(x=>x.classList.toggle('active',x===b));renderDroidex()});
 document.querySelectorAll('#dxTypeFilters .dxFilter').forEach(b=>b.onclick=()=>{dxType=b.dataset.type;document.querySelectorAll('#dxTypeFilters .dxFilter').forEach(x=>x.classList.toggle('active',x===b));renderDroidex()});
 function showDroidexTab(){rebirthView.hidden=true;fusionView.hidden=true;droidexView.hidden=false;rebirthTab.classList.remove('active');fusionTab.classList.remove('active');droidexTab.classList.add('active');rebirthTab.setAttribute('aria-selected','false');fusionTab.setAttribute('aria-selected','false');droidexTab.setAttribute('aria-selected','true');localStorage.setItem('droidatlas-tab','droidex');renderDroidex();window.scrollTo({top:0,behavior:'smooth'})}
-droidexTab.onclick=showDroidexTab;const dxOldRebirth=rebirthTab.onclick;rebirthTab.onclick=()=>{droidexView.hidden=true;dxOldRebirth()};const dxOldFusion=fusionTab.onclick;fusionTab.onclick=()=>{droidexView.hidden=true;dxOldFusion()};if(localStorage.getItem('droidatlas-tab')==='droidex')showDroidexTab();else renderDroidex();
+droidexTab.onclick=showDroidexTab;
+const dxOldRebirth=rebirthTab.onclick;
+rebirthTab.onclick=()=>{droidexView.hidden=true;droidexTab.classList.remove('active');droidexTab.setAttribute('aria-selected','false');dxOldRebirth()};
+const dxOldFusion=fusionTab.onclick;
+fusionTab.onclick=()=>{droidexView.hidden=true;droidexTab.classList.remove('active');droidexTab.setAttribute('aria-selected','false');dxOldFusion()};
+if(localStorage.getItem('droidatlas-tab')==='droidex')showDroidexTab();else renderDroidex();
 </script>
 <script>
 if ('serviceWorker' in navigator) {

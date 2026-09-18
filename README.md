@@ -1,12 +1,13 @@
-# DroidAtlas PWA 1.1.1
+# DroidAtlas 1.2
 
-Packaging fix for DroidAtlas 1.1.
+Production release.
 
-- Correct app/browser title: `DroidAtlas`
-- Explicit web app manifest link
-- Explicit DroidAtlas icons
-- Service worker registration restored
-- Service worker cache bumped to 1.1.1
-- Existing Droidex storage key preserved
-
-No DroidAtlas feature or collection data was intentionally changed from 1.1.
+- Protocol class and SA-5, LOM, PZ, TDA added to Droidex
+- C-3PO reclassified to Protocol
+- 589 collectible states
+- Per-droid Check All / Clear All
+- 17 Fusion recipes marked Verified · In Game
+- Existing five-cycle RB1–35 Rebirth dataset retained
+- Droidex active-tab bug fixed
+- Final tactical holographic background and UI polish
+- Existing Droidex progress preserved with `droidatlas-droidex-v1`
