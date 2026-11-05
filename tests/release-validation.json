@@ -1,0 +1,13 @@
+{
+  "version": "1.2.1",
+  "passed": true,
+  "rows": 240,
+  "lastNeedPositions": 720,
+  "historicalEntriesPreserved": 301,
+  "export": true,
+  "installedUpgrade": true,
+  "offline": true,
+  "unrelatedCachesPreserved": true,
+  "invalidNavigationRecovered": true,
+  "indexSha256": "69c874997e5a430340b9a9377d31fec9b06168ce6a6ab42aef3984274a1bb53b"
+}

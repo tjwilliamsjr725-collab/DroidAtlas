@@ -1,0 +1,12 @@
+const fs=require('node:fs'),path=require('node:path');
+const root=path.join(__dirname,'..');
+let html=fs.readFileSync(path.join(root,'production-update/DroidAtlas_1.2_Crystal_Test_v1.html'),'utf8');
+html=html.replace('<title>DroidAtlas 1.2 · Crystal Plaque Test</title>','<title>DroidAtlas</title>').replace('DROIDATLAS 1.2 · CRYSTAL TEST','DROIDATLAS 1.2.1').replace('content="1.2"','content="1.2.1"');
+html=html.replace("if (false) { // Standalone data-review file; publishing needs a separately reviewed cache update.","if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {");
+html=html.replace('functionality and data are unchanged','functionality is preserved and data sources are documented');
+html=html.replace('if(cycle<1||cycle>6) cycle=1;','if(!Number.isInteger(cycle)||cycle<1||cycle>6) cycle=1;').replace('if(rb<1||rb>40) rb=1;','if(!Number.isInteger(rb)||rb<1||rb>40) rb=1;');
+fs.mkdirSync(path.join(root,'release'),{recursive:true});
+html=html.trimEnd()+'\n';
+fs.writeFileSync(path.join(root,'release/index.html'),html);
+fs.writeFileSync(path.join(root,'index.html'),html);
+console.log('Built release 1.2.1 from the approved crystal test, preserving storage keys.');

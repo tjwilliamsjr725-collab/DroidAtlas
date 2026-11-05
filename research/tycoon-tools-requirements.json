@@ -1,0 +1,4098 @@
+{
+  "source": "https://www.tycoon-tools.com/droid-tycoon/rebirth-requirements/",
+  "retrievedAt": "2026-11-05",
+  "rows": {
+    "1": {
+      "1": {
+        "credits": "10K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "CB"
+          },
+          {
+            "variant": "Default",
+            "droid": "PIT"
+          },
+          {
+            "variant": "Default",
+            "droid": "DRK-1 PROBE"
+          }
+        ]
+      },
+      "2": {
+        "credits": "150K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "BDX EXPLORER"
+          },
+          {
+            "variant": "Default",
+            "droid": "2BB"
+          },
+          {
+            "variant": "Default",
+            "droid": "BAL-CORE"
+          }
+        ]
+      },
+      "3": {
+        "credits": "975K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "A-LT"
+          },
+          {
+            "variant": "Default",
+            "droid": "B-U4D"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R9"
+          }
+        ]
+      },
+      "4": {
+        "credits": "2.95M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "ARG"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B1 SECURITY"
+          },
+          {
+            "variant": "Default",
+            "droid": "GROUNDMECH"
+          }
+        ]
+      },
+      "5": {
+        "credits": "5.35M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "B-U4D"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "HOV-R"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R9"
+          }
+        ]
+      },
+      "6": {
+        "credits": "9.85M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "A-LT"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "ARG"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "GROUNDMECH"
+          }
+        ]
+      },
+      "7": {
+        "credits": "14.5M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "B-U4D"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B1 SECURITY"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BB"
+          }
+        ]
+      },
+      "8": {
+        "credits": "36M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "HOV-R"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "LO"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "UTIL-TEC"
+          }
+        ]
+      },
+      "9": {
+        "credits": "89M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R6"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "GROUNDMECH"
+          }
+        ]
+      },
+      "10": {
+        "credits": "220M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "HAUL-R"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "LO"
+          }
+        ]
+      },
+      "11": {
+        "credits": "550M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B1 HEAVY"
+          },
+          {
+            "variant": "Default",
+            "droid": "BB9"
+          }
+        ]
+      },
+      "12": {
+        "credits": "1.36B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "Default",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "Default",
+            "droid": "MONO-WLKR"
+          }
+        ]
+      },
+      "13": {
+        "credits": "3.40B",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "R7"
+          },
+          {
+            "variant": "Default",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "14": {
+        "credits": "8.45B",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "15": {
+        "credits": "21.00B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R7"
+          }
+        ]
+      },
+      "16": {
+        "credits": "52.00B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "17": {
+        "credits": "130.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "18": {
+        "credits": "325.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "BB9"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R7"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "MONO-WLKR"
+          }
+        ]
+      },
+      "19": {
+        "credits": "810.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "20": {
+        "credits": "2.00T",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "R7"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "21": {
+        "credits": "3.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "BB"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "ORB-WALKER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "GROUNDMECH"
+          }
+        ]
+      },
+      "22": {
+        "credits": "4.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B1 HEAVY"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "23": {
+        "credits": "6.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "R7"
+          }
+        ]
+      },
+      "24": {
+        "credits": "9.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "BB9"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "Default",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "25": {
+        "credits": "13.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "Default",
+            "droid": "IG"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "26": {
+        "credits": "21.00T",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "LOADLIFTER"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "RIC-1200"
+          }
+        ]
+      },
+      "27": {
+        "credits": "32.00T",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "KX"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "TRI-TEK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "28": {
+        "credits": "45.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "MO-TRAK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "29": {
+        "credits": "68.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "IG"
+          }
+        ]
+      },
+      "30": {
+        "credits": "100T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "LOADLIFTER"
+          }
+        ]
+      },
+      "31": {
+        "credits": "150T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "SEN-TRI"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "KX"
+          }
+        ]
+      },
+      "32": {
+        "credits": "230T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "ORB-WALKER"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "OPTI-POD"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "RIC"
+          }
+        ]
+      },
+      "33": {
+        "credits": "345T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "B1 HEAVY"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "34": {
+        "credits": "520T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "BB"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "CYCLENS"
+          }
+        ]
+      },
+      "35": {
+        "credits": "778T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "BB9"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "IG"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "36": {
+        "credits": "1.19Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "BDX EXPLORER"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "2BB"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "A-LT"
+          }
+        ]
+      },
+      "37": {
+        "credits": "2.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "B1 HEAVY"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "BB"
+          }
+        ]
+      },
+      "38": {
+        "credits": "4.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "R2"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "R6"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "BB9"
+          }
+        ]
+      },
+      "39": {
+        "credits": "8.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "R7"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "IG"
+          }
+        ]
+      },
+      "40": {
+        "credits": "15.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "SNOW MOUSE"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "DRFT-R"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "CYCLENS"
+          }
+        ]
+      }
+    },
+    "2": {
+      "1": {
+        "credits": "10K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "ID10"
+          },
+          {
+            "variant": "Default",
+            "droid": "MOUSE"
+          },
+          {
+            "variant": "Default",
+            "droid": "GONK"
+          }
+        ]
+      },
+      "2": {
+        "credits": "150K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "ROLL-R"
+          },
+          {
+            "variant": "Default",
+            "droid": "SENATE HOVERCAM"
+          },
+          {
+            "variant": "Default",
+            "droid": "NAV-EX"
+          }
+        ]
+      },
+      "3": {
+        "credits": "975K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "R4"
+          },
+          {
+            "variant": "Default",
+            "droid": "VECT-ARM"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BDX EXPLORER"
+          }
+        ]
+      },
+      "4": {
+        "credits": "2.95M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "2BB"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "Default",
+            "droid": "ORB-WALKER"
+          }
+        ]
+      },
+      "5": {
+        "credits": "5.35M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "R4"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "VECT-ARM"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "NAV-EX"
+          }
+        ]
+      },
+      "6": {
+        "credits": "9.85M",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "GUNRUNNER"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "2BB"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "BAL-CORE"
+          }
+        ]
+      },
+      "7": {
+        "credits": "14.5M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "ROLL-R"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "BDX EXPLORER"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R2"
+          }
+        ]
+      },
+      "8": {
+        "credits": "36M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R4"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "GUNRUNNER"
+          }
+        ]
+      },
+      "9": {
+        "credits": "89M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "NAV-EX"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "AMP WALKER"
+          }
+        ]
+      },
+      "10": {
+        "credits": "220M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "VECT-ARM"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R2"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B2 SUPER"
+          }
+        ]
+      },
+      "11": {
+        "credits": "550M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B2 HEAVY"
+          }
+        ]
+      },
+      "12": {
+        "credits": "1.36B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "ORB-WALKER"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "R2"
+          },
+          {
+            "variant": "Default",
+            "droid": "BB9"
+          }
+        ]
+      },
+      "13": {
+        "credits": "3.40B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "Default",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "14": {
+        "credits": "8.45B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R7"
+          }
+        ]
+      },
+      "15": {
+        "credits": "21.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "16": {
+        "credits": "52.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "17": {
+        "credits": "130.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "OPTI-POD"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R7"
+          }
+        ]
+      },
+      "18": {
+        "credits": "325.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "UTIL-TEC"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "BB9"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "19": {
+        "credits": "810.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "R7"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "20": {
+        "credits": "2.00T",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "CYCLO-GRAV"
+          }
+        ]
+      },
+      "21": {
+        "credits": "3.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "LO"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "R6"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "HAUL-R"
+          }
+        ]
+      },
+      "22": {
+        "credits": "4.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "SEN-TRI"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "23": {
+        "credits": "6.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "BB9"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "24": {
+        "credits": "9.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "Default",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "25": {
+        "credits": "13.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "TRI-TEK"
+          },
+          {
+            "variant": "Default",
+            "droid": "RIC-1200"
+          }
+        ]
+      },
+      "26": {
+        "credits": "21.00T",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "KX"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "DRFT-R"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "IG"
+          }
+        ]
+      },
+      "27": {
+        "credits": "32.00T",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "LEP"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "LOADLIFTER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "28": {
+        "credits": "45.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "SNOW MOUSE"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "29": {
+        "credits": "68.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "R7"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "RIC"
+          }
+        ]
+      },
+      "30": {
+        "credits": "100T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "KX"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "31": {
+        "credits": "150T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "LOADLIFTER"
+          }
+        ]
+      },
+      "32": {
+        "credits": "230T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "GUNRUNNER"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "B1 HEAVY"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "LEP"
+          }
+        ]
+      },
+      "33": {
+        "credits": "345T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "R2"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "KX"
+          }
+        ]
+      },
+      "34": {
+        "credits": "520T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "R6"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "LO"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "RIC"
+          }
+        ]
+      },
+      "35": {
+        "credits": "778T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "R7"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "DRFT-R"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "CYCLENS"
+          }
+        ]
+      },
+      "36": {
+        "credits": "1.19Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "B1 SECURITY"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "R4"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "R9"
+          }
+        ]
+      },
+      "37": {
+        "credits": "2.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "LO"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "ORB-WALKER"
+          }
+        ]
+      },
+      "38": {
+        "credits": "4.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "39": {
+        "credits": "8.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "KX"
+          }
+        ]
+      },
+      "40": {
+        "credits": "15.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "RIC"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "LOADLIFTER"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "LEP"
+          }
+        ]
+      }
+    },
+    "3": {
+      "1": {
+        "credits": "10K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "MOUSE"
+          },
+          {
+            "variant": "Default",
+            "droid": "PIT"
+          },
+          {
+            "variant": "Default",
+            "droid": "GONK"
+          }
+        ]
+      },
+      "2": {
+        "credits": "150K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "R3"
+          },
+          {
+            "variant": "Default",
+            "droid": "2BB"
+          },
+          {
+            "variant": "Default",
+            "droid": "SENATE HOVERCAM"
+          }
+        ]
+      },
+      "3": {
+        "credits": "975K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "R8"
+          },
+          {
+            "variant": "Default",
+            "droid": "R5"
+          },
+          {
+            "variant": "Default",
+            "droid": "R4"
+          }
+        ]
+      },
+      "4": {
+        "credits": "2.95M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "B1 BATTLE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B1 SECURITY"
+          }
+        ]
+      },
+      "5": {
+        "credits": "5.35M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "R3"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "2BB"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "SENATE HOVERCAM"
+          }
+        ]
+      },
+      "6": {
+        "credits": "9.85M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R5"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R4"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "BDX EXPLORER"
+          }
+        ]
+      },
+      "7": {
+        "credits": "14.5M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R8"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B1 BATTLE"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R9"
+          }
+        ]
+      },
+      "8": {
+        "credits": "36M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "R3"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "2BB"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B1 SECURITY"
+          }
+        ]
+      },
+      "9": {
+        "credits": "89M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "R5"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "R4"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "BDX EXPLORER"
+          }
+        ]
+      },
+      "10": {
+        "credits": "220M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "SENATE HOVERCAM"
+          },
+          {
+            "variant": "Default",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "Default",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "11": {
+        "credits": "550M",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "UTIL-TEC"
+          }
+        ]
+      },
+      "12": {
+        "credits": "1.36B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "13": {
+        "credits": "3.40B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "Default",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "14": {
+        "credits": "8.45B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R7"
+          }
+        ]
+      },
+      "15": {
+        "credits": "21.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "16": {
+        "credits": "52.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "17": {
+        "credits": "130.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "OPTI-POD"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R7"
+          }
+        ]
+      },
+      "18": {
+        "credits": "325.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "UTIL-TEC"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "BB9"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "19": {
+        "credits": "810.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "R7"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "20": {
+        "credits": "2.00T",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "CYCLO-GRAV"
+          }
+        ]
+      },
+      "21": {
+        "credits": "3.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "OPTI-POD"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "R2"
+          }
+        ]
+      },
+      "22": {
+        "credits": "4.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "GUNRUNNER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "LNG-SHOT"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "23": {
+        "credits": "6.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "24": {
+        "credits": "9.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "BB9"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "Default",
+            "droid": "RIC"
+          }
+        ]
+      },
+      "25": {
+        "credits": "13.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "Default",
+            "droid": "LOADLIFTER"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "26": {
+        "credits": "21.00T",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "LEP"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "TRI-TEK"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "27": {
+        "credits": "32.00T",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "RIC-1200"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "IG"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "28": {
+        "credits": "45.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "BB9"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "RIC"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "29": {
+        "credits": "68.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "IG"
+          }
+        ]
+      },
+      "30": {
+        "credits": "100T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "R7"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "LEP"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "31": {
+        "credits": "150T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "RIC-1200"
+          }
+        ]
+      },
+      "32": {
+        "credits": "230T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "BB"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "33": {
+        "credits": "345T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "LOADLIFTER"
+          }
+        ]
+      },
+      "34": {
+        "credits": "520T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "ORB-WALKER"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "LEP"
+          }
+        ]
+      },
+      "35": {
+        "credits": "778T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "KX"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "RIC"
+          }
+        ]
+      },
+      "36": {
+        "credits": "1.19Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "ARG"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "SENATE HOVERCAM"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "B-U4D"
+          }
+        ]
+      },
+      "37": {
+        "credits": "2.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "UTIL-TEC"
+          }
+        ]
+      },
+      "38": {
+        "credits": "4.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "HAUL-R"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "LNG-SHOT"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "OPTI-STRK"
+          }
+        ]
+      },
+      "39": {
+        "credits": "8.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "BB9"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "RIC-1200"
+          }
+        ]
+      },
+      "40": {
+        "credits": "15.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "MO-TRAK"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "TRI-TEK"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "IG"
+          }
+        ]
+      }
+    },
+    "4": {
+      "1": {
+        "credits": "10K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "ID10"
+          },
+          {
+            "variant": "Default",
+            "droid": "PIT"
+          },
+          {
+            "variant": "Default",
+            "droid": "DRK-1 PROBE"
+          }
+        ]
+      },
+      "2": {
+        "credits": "150K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "R3"
+          },
+          {
+            "variant": "Default",
+            "droid": "2BB"
+          },
+          {
+            "variant": "Default",
+            "droid": "SENATE HOVERCAM"
+          }
+        ]
+      },
+      "3": {
+        "credits": "975K",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "R5"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R8"
+          },
+          {
+            "variant": "Default",
+            "droid": "R4"
+          }
+        ]
+      },
+      "4": {
+        "credits": "2.95M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "B1 BATTLE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B1 SECURITY"
+          }
+        ]
+      },
+      "5": {
+        "credits": "5.35M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "R3"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "2BB"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "SENATE HOVERCAM"
+          }
+        ]
+      },
+      "6": {
+        "credits": "9.85M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R5"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R4"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "BDX EXPLORER"
+          }
+        ]
+      },
+      "7": {
+        "credits": "14.5M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R8"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B1 BATTLE"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R9"
+          }
+        ]
+      },
+      "8": {
+        "credits": "36M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "R3"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B1 SECURITY"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "2BB"
+          }
+        ]
+      },
+      "9": {
+        "credits": "89M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "R5"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "R4"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "BDX EXPLORER"
+          }
+        ]
+      },
+      "10": {
+        "credits": "220M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "SENATE HOVERCAM"
+          },
+          {
+            "variant": "Default",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "Default",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "11": {
+        "credits": "550M",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "UTIL-TEC"
+          }
+        ]
+      },
+      "12": {
+        "credits": "1.36B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "13": {
+        "credits": "3.40B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "Default",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "14": {
+        "credits": "8.45B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "15": {
+        "credits": "21.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "16": {
+        "credits": "52.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "UTIL-TEC"
+          },
+          {
+            "variant": "Default",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R7"
+          }
+        ]
+      },
+      "17": {
+        "credits": "130.00B",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "18": {
+        "credits": "325.00B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BB9"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R7"
+          }
+        ]
+      },
+      "19": {
+        "credits": "810.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "R7"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "20": {
+        "credits": "2.00T",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "CYCLO-GRAV"
+          }
+        ]
+      },
+      "21": {
+        "credits": "3.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "HAUL-R"
+          }
+        ]
+      },
+      "22": {
+        "credits": "4.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "GUNRUNNER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2 SUPER"
+          }
+        ]
+      },
+      "23": {
+        "credits": "6.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "24": {
+        "credits": "9.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "Default",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "25": {
+        "credits": "13.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "Default",
+            "droid": "TRI-TEK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "26": {
+        "credits": "21.00T",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "LEP"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "27": {
+        "credits": "32.00T",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "RIC-1200"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "SNOW MOUSE"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "LOADLIFTER"
+          }
+        ]
+      },
+      "28": {
+        "credits": "45.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "IG"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "KX"
+          }
+        ]
+      },
+      "29": {
+        "credits": "68.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "R7"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "30": {
+        "credits": "100T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "IG"
+          }
+        ]
+      },
+      "31": {
+        "credits": "150T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "32": {
+        "credits": "230T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "R2"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "R6"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "IG"
+          }
+        ]
+      },
+      "33": {
+        "credits": "345T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "RIC-1200"
+          }
+        ]
+      },
+      "34": {
+        "credits": "520T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "35": {
+        "credits": "778T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "LOADLIFTER"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "LEP"
+          }
+        ]
+      },
+      "36": {
+        "credits": "1.19Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "NAV-EX"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "VECT-ARM"
+          }
+        ]
+      },
+      "37": {
+        "credits": "2.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "SEN-TRI"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "OPTI-POD"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "GUNRUNNER"
+          }
+        ]
+      },
+      "38": {
+        "credits": "4.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "B1 HEAVY"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "R7"
+          }
+        ]
+      },
+      "39": {
+        "credits": "8.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "40": {
+        "credits": "15.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "DRFT-R"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "KX"
+          }
+        ]
+      }
+    },
+    "5": {
+      "1": {
+        "credits": "10K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "ID10"
+          },
+          {
+            "variant": "Default",
+            "droid": "MOUSE"
+          },
+          {
+            "variant": "Default",
+            "droid": "GONK"
+          }
+        ]
+      },
+      "2": {
+        "credits": "150K",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "IMPERIAL PROBE"
+          },
+          {
+            "variant": "Default",
+            "droid": "2BB"
+          },
+          {
+            "variant": "Default",
+            "droid": "ROLL-R"
+          }
+        ]
+      },
+      "3": {
+        "credits": "975K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "R4"
+          },
+          {
+            "variant": "Default",
+            "droid": "VECT-ARM"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BDX EXPLORER"
+          }
+        ]
+      },
+      "4": {
+        "credits": "2.95M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "B1 BATTLE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B1 SECURITY"
+          }
+        ]
+      },
+      "5": {
+        "credits": "5.35M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "R3"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R4"
+          }
+        ]
+      },
+      "6": {
+        "credits": "9.85M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "2BB"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "BDX EXPLORER"
+          },
+          {
+            "variant": "Default",
+            "droid": "GUNRUNNER"
+          }
+        ]
+      },
+      "7": {
+        "credits": "14.5M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R5"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "ROLL-R"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R2"
+          }
+        ]
+      },
+      "8": {
+        "credits": "36M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R8"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B1 BATTLE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B2 SUPER"
+          }
+        ]
+      },
+      "9": {
+        "credits": "89M",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "NAV-EX"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "AMP WALKER"
+          }
+        ]
+      },
+      "10": {
+        "credits": "220M",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "IMPERIAL PROBE"
+          },
+          {
+            "variant": "Default",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "Default",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "11": {
+        "credits": "550M",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "UTIL-TEC"
+          }
+        ]
+      },
+      "12": {
+        "credits": "1.36B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "BAL-CORE"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "13": {
+        "credits": "3.40B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R2"
+          }
+        ]
+      },
+      "14": {
+        "credits": "8.45B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "UTIL-TEC"
+          }
+        ]
+      },
+      "15": {
+        "credits": "21.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "B2 HEAVY"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "16": {
+        "credits": "52.00B",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R7"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "17": {
+        "credits": "130.00B",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "18": {
+        "credits": "325.00B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R7"
+          }
+        ]
+      },
+      "19": {
+        "credits": "810.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "20": {
+        "credits": "2.00T",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "BB9"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "R7"
+          }
+        ]
+      },
+      "21": {
+        "credits": "3.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "LO"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "STRIKE-ORB"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "HAUL-R"
+          }
+        ]
+      },
+      "22": {
+        "credits": "4.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "SEN-TRI"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "R6"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "GUNRUNNER"
+          }
+        ]
+      },
+      "23": {
+        "credits": "6.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "BB9"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "24": {
+        "credits": "9.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "MONO-WLKR"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "Default",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "25": {
+        "credits": "13.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "Default",
+            "droid": "RIC"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "26": {
+        "credits": "21.00T",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "LEP"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "27": {
+        "credits": "32.00T",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "RIC-1200"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "IG"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "LOADLIFTER"
+          }
+        ]
+      },
+      "28": {
+        "credits": "45.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "BB9"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "RIC"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "29": {
+        "credits": "68.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "IG"
+          }
+        ]
+      },
+      "30": {
+        "credits": "100T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "R7"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "LEP"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "CYCLENS"
+          }
+        ]
+      },
+      "31": {
+        "credits": "150T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "AMP WALKER"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "32": {
+        "credits": "230T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "LO"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "33": {
+        "credits": "345T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "UTIL-TEC"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "R7"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "34": {
+        "credits": "520T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "HAUL-R"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "LNG-SHOT"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "IG"
+          }
+        ]
+      },
+      "35": {
+        "credits": "778T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "RIC-1200"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "MO-TRAK"
+          }
+        ]
+      },
+      "36": {
+        "credits": "1.19Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "MOUSE"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "ROLL-R"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "HOV-R"
+          }
+        ]
+      },
+      "37": {
+        "credits": "2.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "BB"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "R2"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "R6"
+          }
+        ]
+      },
+      "38": {
+        "credits": "4.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "LO"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "MECHA-DROID"
+          }
+        ]
+      },
+      "39": {
+        "credits": "8.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "OPTI-STRK"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "RIC"
+          }
+        ]
+      },
+      "40": {
+        "credits": "15.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "LOADLIFTER"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "LEP"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "RIC-1200"
+          }
+        ]
+      }
+    },
+    "6": {
+      "1": {
+        "credits": "10K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "GONK"
+          },
+          {
+            "variant": "Default",
+            "droid": "MOUSE"
+          },
+          {
+            "variant": "Default",
+            "droid": "ID10"
+          }
+        ]
+      },
+      "2": {
+        "credits": "150K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "PIT"
+          },
+          {
+            "variant": "Default",
+            "droid": "EG-58"
+          },
+          {
+            "variant": "Default",
+            "droid": "2BB"
+          }
+        ]
+      },
+      "3": {
+        "credits": "975K",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "R3"
+          },
+          {
+            "variant": "Default",
+            "droid": "R4"
+          },
+          {
+            "variant": "Default",
+            "droid": "ROLL-R"
+          }
+        ]
+      },
+      "4": {
+        "credits": "2.95M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "EG-58"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B1 SECURITY"
+          }
+        ]
+      },
+      "5": {
+        "credits": "5.35M",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "GONK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R5"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "VECT-ARM"
+          }
+        ]
+      },
+      "6": {
+        "credits": "9.85M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "EG-58"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "2BB"
+          },
+          {
+            "variant": "Default",
+            "droid": "EGL"
+          }
+        ]
+      },
+      "7": {
+        "credits": "14.5M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "R4"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R9"
+          },
+          {
+            "variant": "Default",
+            "droid": "KT"
+          }
+        ]
+      },
+      "8": {
+        "credits": "36M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "B1 SECURITY"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "NAV-EX"
+          },
+          {
+            "variant": "Default",
+            "droid": "MPH"
+          }
+        ]
+      },
+      "9": {
+        "credits": "89M",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "GONK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "EGL"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "STRIKE-ORB"
+          }
+        ]
+      },
+      "10": {
+        "credits": "220M",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "Default",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "Default",
+            "droid": "AMP WALKER"
+          }
+        ]
+      },
+      "11": {
+        "credits": "550M",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "HAUL-R"
+          },
+          {
+            "variant": "Default",
+            "droid": "R2"
+          }
+        ]
+      },
+      "12": {
+        "credits": "1.36B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "GONK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "TRAK-R"
+          }
+        ]
+      },
+      "13": {
+        "credits": "3.40B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "KT"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "MPH"
+          },
+          {
+            "variant": "Default",
+            "droid": "PROTO-ROLLER"
+          }
+        ]
+      },
+      "14": {
+        "credits": "8.45B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "EGL"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "B2 SUPER"
+          },
+          {
+            "variant": "Default",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "15": {
+        "credits": "21.00B",
+        "requirements": [
+          {
+            "variant": "DIAMOND",
+            "droid": "KT"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "MPH"
+          },
+          {
+            "variant": "Default",
+            "droid": "J09-4MN"
+          }
+        ]
+      },
+      "16": {
+        "credits": "52.00B",
+        "requirements": [
+          {
+            "variant": "Default",
+            "droid": "PLNK"
+          },
+          {
+            "variant": "Default",
+            "droid": "BB9"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "R7"
+          }
+        ]
+      },
+      "17": {
+        "credits": "130.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "EGL"
+          },
+          {
+            "variant": "Default",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "J09-4MN"
+          }
+        ]
+      },
+      "18": {
+        "credits": "325.00B",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "KT"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "MPH"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "PLNK"
+          }
+        ]
+      },
+      "19": {
+        "credits": "810.00B",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "J09-4MN"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "R7"
+          }
+        ]
+      },
+      "20": {
+        "credits": "2.00T",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "PLNK"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "MECHA-DROID"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "B2-RP"
+          }
+        ]
+      },
+      "21": {
+        "credits": "3.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "GONK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "EGL"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "HAUL-R"
+          }
+        ]
+      },
+      "22": {
+        "credits": "4.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "KT"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "GROUNDMECH"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "R2"
+          }
+        ]
+      },
+      "23": {
+        "credits": "6.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "MPH"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "J09-4MN"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "BB9"
+          }
+        ]
+      },
+      "24": {
+        "credits": "9.00T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "PLNK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "PROTO-ROLLER"
+          },
+          {
+            "variant": "Default",
+            "droid": "ECG"
+          }
+        ]
+      },
+      "25": {
+        "credits": "13.50T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "R7"
+          },
+          {
+            "variant": "Default",
+            "droid": "IG"
+          },
+          {
+            "variant": "Default",
+            "droid": "LOADLIFTER"
+          }
+        ]
+      },
+      "26": {
+        "credits": "21.00T",
+        "requirements": [
+          {
+            "variant": "GOLD",
+            "droid": "MO-TRAK"
+          },
+          {
+            "variant": "GOLD",
+            "droid": "ECG"
+          },
+          {
+            "variant": "DIAMOND",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "27": {
+        "credits": "32.00T",
+        "requirements": [
+          {
+            "variant": "RAINBOW",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "RAINBOW",
+            "droid": "SNOW MOUSE"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "28": {
+        "credits": "45.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "EGL"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "J09-4MN"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "BB9"
+          }
+        ]
+      },
+      "29": {
+        "credits": "68.00T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "KT"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "PLNK"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "IG"
+          }
+        ]
+      },
+      "30": {
+        "credits": "100T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "MPH"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "B2-RP"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "DRFT-R"
+          }
+        ]
+      },
+      "31": {
+        "credits": "150T",
+        "requirements": [
+          {
+            "variant": "BESKAR",
+            "droid": "EG-58"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "EGL"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "32": {
+        "credits": "230T",
+        "requirements": [
+          {
+            "variant": "GALACTIC",
+            "droid": "TRAK-R"
+          },
+          {
+            "variant": "BESKAR",
+            "droid": "CYCLENS"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "ECG"
+          }
+        ]
+      },
+      "33": {
+        "credits": "345T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "KT"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "34": {
+        "credits": "520T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "MPH"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "HAUL-R"
+          },
+          {
+            "variant": "GALACTIC",
+            "droid": "IG"
+          }
+        ]
+      },
+      "35": {
+        "credits": "778T",
+        "requirements": [
+          {
+            "variant": "STELLAR",
+            "droid": "J09-4MN"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "PLNK"
+          },
+          {
+            "variant": "STELLAR",
+            "droid": "ECG"
+          }
+        ]
+      },
+      "36": {
+        "credits": "1.19Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "GONK"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "EG-58"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "ROLL-R"
+          }
+        ]
+      },
+      "37": {
+        "credits": "2.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "EGL"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "R2"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "B2 SUPER"
+          }
+        ]
+      },
+      "38": {
+        "credits": "4.50Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "KT"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "MPH"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "SNOW MOUSE"
+          }
+        ]
+      },
+      "39": {
+        "credits": "8.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "J09-4MN"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "CYCLO-GRAV"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "TRI-TEK"
+          }
+        ]
+      },
+      "40": {
+        "credits": "15.00Qa",
+        "requirements": [
+          {
+            "variant": "KYBER",
+            "droid": "PLNK"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "ECG"
+          },
+          {
+            "variant": "KYBER",
+            "droid": "DRFT-R"
+          }
+        ]
+      }
+    }
+  }
+}

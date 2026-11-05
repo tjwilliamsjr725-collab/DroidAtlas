@@ -1,0 +1,36 @@
+{
+  "total": 720,
+  "missingCount": 0,
+  "affectedRows": 0,
+  "variants": {
+    "Default": 24,
+    "Kyber": 307,
+    "Diamond": 56,
+    "Rainbow": 67,
+    "Gold": 13,
+    "Beskar": 91,
+    "Galactic": 97,
+    "Stellar": 65
+  },
+  "missing": [],
+  "rb2": [
+    {
+      "droid": "BDX Explorer",
+      "requiredNow": "Default",
+      "last": 36,
+      "finalVariant": "Kyber"
+    },
+    {
+      "droid": "2BB",
+      "requiredNow": "Default",
+      "last": 36,
+      "finalVariant": "Kyber"
+    },
+    {
+      "droid": "Bal-Core",
+      "requiredNow": "Default",
+      "last": 2,
+      "finalVariant": "Default"
+    }
+  ]
+}

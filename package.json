@@ -1,0 +1,10 @@
+{
+  "name": "droidatlas",
+  "version": "1.2.1",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build-production.cjs && node tools/build-crystal-test.cjs && node tools/build-release.cjs",
+    "test": "node tools/validate-data.cjs && node tests/plaques.cjs --crystal && node tests/regression.cjs --production --crystal && node tests/release.cjs"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
