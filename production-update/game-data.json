@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.2-data-2026.11.05-r1",
+  "version": "1.2.2-game-v1.40-2026.11.26",
   "baselineCommit": "85ab259893c6a043d2c8f34ab7ed485ee7fcc8a2",
   "rebirths": {
     "1": {
@@ -5136,7 +5136,7 @@
       "type": "Fusion"
     },
     {
-      "name": "OPT-R",
+      "name": "OPT-AR",
       "class": "Battle",
       "rarity": "Epic",
       "type": "Fusion"
@@ -5286,7 +5286,7 @@
       "type": "Standard"
     },
     {
-      "name": "AXL-POD",
+      "name": "AXI-POD",
       "class": "Astromech",
       "rarity": "Mythic",
       "type": "Fusion"
@@ -5440,6 +5440,78 @@
       "class": "Unknown",
       "rarity": "Iconic",
       "type": "Iconic"
+    },
+    {
+      "name": "ION Probe",
+      "class": "Worker",
+      "rarity": "Common",
+      "type": "Fusion"
+    },
+    {
+      "name": "Quad Sentry",
+      "class": "Astromech",
+      "rarity": "Common",
+      "type": "Fusion"
+    },
+    {
+      "name": "LFT-3R",
+      "class": "Battle",
+      "rarity": "Common",
+      "type": "Fusion"
+    },
+    {
+      "name": "BI-Bit",
+      "class": "Astromech",
+      "rarity": "Epic",
+      "type": "Fusion"
+    },
+    {
+      "name": "STRD-3",
+      "class": "Worker",
+      "rarity": "Epic",
+      "type": "Fusion"
+    },
+    {
+      "name": "HV-EE",
+      "class": "Astromech",
+      "rarity": "Legendary",
+      "type": "Fusion"
+    },
+    {
+      "name": "TOR-Q",
+      "class": "Battle",
+      "rarity": "Legendary",
+      "type": "Fusion"
+    },
+    {
+      "name": "AX-L",
+      "class": "Battle",
+      "rarity": "Mythic",
+      "type": "Fusion"
+    },
+    {
+      "name": "MO-TRO",
+      "class": "Astromech",
+      "rarity": "Mythic",
+      "type": "Fusion"
+    },
+    {
+      "name": "KL-NK",
+      "class": "Protocol",
+      "rarity": "Mythic",
+      "type": "Fusion"
+    },
+    {
+      "name": "SKM-MR",
+      "class": "Astromech",
+      "rarity": "Mythic",
+      "type": "Fusion"
+    },
+    {
+      "name": "D-O",
+      "class": "Worker",
+      "rarity": "Iconic",
+      "type": "Iconic"
     }
   ],
   "variants": [
@@ -5453,19 +5525,22 @@
     "Kyber Inactive",
     "Kyber Green",
     "Kyber Blue",
-    "Kyber Purple"
+    "Kyber Purple",
+    "Scourge"
   ],
   "sources": {
     "official135": "https://communities.epicgames.com/thread/patch-notes-v1-35/R5TN",
     "official136": "https://communities.epicgames.com/thread/patch-notes-v1-36-0/OAFy",
     "official137": "https://communities.epicgames.com/thread/v1-37-0-patch-notes/DsCl",
-    "community": "https://droidex.dubtrackr.win/droid-tycoon-tools/rebirth-cycles/"
+    "community": "https://droidex.dubtrackr.win/droid-tycoon-tools/rebirth-cycles/",
+    "official140": "https://communities.epicgames.com/thread/new-fusion-droids-v1-40-0/i9zr",
+    "community140": "https://www.reddit.com/r/StarWarsDroidTycoon/comments/1y5ci54/"
   },
   "rules": {
     "scourgeSatisfiesAllRebirthVariants": true,
     "scourgePrimeRarity": "Iconic",
     "protoRollerRarity": "Legendary"
   },
-  "rosterStatus": "Inherited production roster plus later local reported additions; current completeness not directly verified",
-  "variantStatus": "Kyber states inherited from later local build; Scourge per-droid eligibility unresolved"
+  "rosterStatus": "112 entries. New Fusion rarities and ingredients are community reported, awaiting in-game verification.",
+  "variantStatus": "Scourge is a distinct historical acquisition finish; per-droid eligibility needs in-game confirmation."
 }
