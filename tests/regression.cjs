@@ -42,11 +42,11 @@ const url='file:///'+path.join(root,appPath).replaceAll('\\','/');
  await page.reload();await page.locator('#dxSearch').fill('Proto-Roller');
  assert.equal(await page.locator('.dxVariant.filled').count(),2);
  if(production){
-  await page.locator('.dxBulkBtn').click();assert.equal(await page.locator('.dxVariant.filled').count(),11);
+  await page.locator('.dxBulkBtn').click();assert.equal(await page.locator('.dxVariant.filled').count(),12);
   await page.locator('.dxBulkBtn').click();assert.equal(await page.locator('.dxVariant.filled').count(),0);
   assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem(DX_KEY))['Retired Droid||Legacy']),true);
   await page.locator('#dxSearch').fill('');await page.locator('[data-class="Protocol"]').click();
-  assert.equal(await page.locator('.dxCard').count(),5);
+  assert.equal(await page.locator('.dxCard').count(),6);
   await page.locator('[data-class="All"]').click();await page.locator('[data-rarity="Legendary"]').click();
   assert.equal(await page.locator('.dxCard').count()>0,true);
   await page.locator('#dxSearch').fill('Proto-Roller');await page.locator('#dxMissingOnly').check();

@@ -36,10 +36,10 @@ const server=http.createServer((req,res)=>{
   });
  });
  await page.reload();
- assert.match(await page.locator('.commandMeta').innerText(),/1.2.1/);
+ assert.match(await page.locator('.commandMeta').innerText(),/1.2.2/);
  assert.deepEqual(await page.evaluate(()=>JSON.parse(localStorage.getItem(DX_KEY))),historic,'301 historical entries survive upgrade');
  assert.equal(await page.locator('#droidexView').isVisible(),true,'Active tab survives');
- assert.match(await page.locator('#dxCount').innerText(),/^301 \/ 1000$/);
+ assert.match(await page.locator('#dxCount').innerText(),/^301 \/ 1223$/);
  assert(await page.evaluate(async()=> (await caches.keys()).includes('unrelated-app-cache')),'Unrelated caches survive');
  assert(!(await page.evaluate(async()=>await caches.keys())).includes('droidatlas-1.2-cache-v1'));
  await page.locator('#rebirthTab').click();
@@ -66,14 +66,14 @@ const server=http.createServer((req,res)=>{
  await page.locator('#infoBtn').click();const download=page.waitForEvent('download');await page.locator('#exportCollection').click();
  const file=await (await download).path();assert.deepEqual(JSON.parse(JSON.parse(fs.readFileSync(file,'utf8')).collectionRaw),historic);
  await page.locator('#closeInfo').click();
- await context.setOffline(true);await page.reload();assert.match(await page.locator('.commandMeta').innerText(),/1.2.1/);
+ await context.setOffline(true);await page.reload();assert.match(await page.locator('.commandMeta').innerText(),/1.2.2/);
  assert.deepEqual(await page.evaluate(()=>JSON.parse(localStorage.getItem(DX_KEY))),historic);
  const art=await page.evaluate(async()=>{const p=document.querySelector('.v-kyber'),im=new Image();im.src=getComputedStyle(p).backgroundImage.slice(5,-2);await im.decode();return im.naturalWidth;});assert.equal(art,1586);
  await context.setOffline(false);
  await page.evaluate(()=>{localStorage.setItem('daCycle','bad');localStorage.setItem('daRb','NaN')});await page.reload();
  assert.match(await page.locator('#answer').innerText(),/Cycle 1 · RB 1/);
  assert.deepEqual(errors,[]);
- fs.writeFileSync(path.join(root,'tests/release-validation.json'),JSON.stringify({version:'1.2.1',passed:true,rows:240,lastNeedPositions:720,historicalEntriesPreserved:301,export:true,installedUpgrade:true,offline:true,unrelatedCachesPreserved:true,invalidNavigationRecovered:true,indexSha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'release/index.html'))).digest('hex')},null,2));
- console.log('PASS: installed 1.2 → 1.2.1 upgrade, 301 exact history entries preserved, export, offline, 720 independently checked last-need results, invalid navigation recovery; no script errors.');
+ fs.writeFileSync(path.join(root,'tests/release-validation.json'),JSON.stringify({version:'1.2.2',passed:true,rows:240,lastNeedPositions:720,historicalEntriesPreserved:301,export:true,installedUpgrade:true,offline:true,unrelatedCachesPreserved:true,invalidNavigationRecovered:true,indexSha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'release/index.html'))).digest('hex')},null,2));
+ console.log('PASS: installed 1.2 → 1.2.2 upgrade, 301 exact history entries preserved, export, offline, 720 independently checked last-need results, invalid navigation recovery; no script errors.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(()=>server.close());
