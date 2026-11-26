@@ -1,0 +1,52 @@
+name: Build and validate DroidAtlas 1.2.2
+on:
+  push:
+    branches:
+      - release/droidatlas-1.2.2-20261126
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install
+      - name: Install browser for app tests
+        run: npx playwright install --with-deps chrome
+      - name: Apply v1.40 patch, rebuild and run regression tests
+        run: |
+          python3 patches/apply_v140.py
+          npm run build
+          npm test
+      - name: Ensure expected release invariants
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          d=json.loads(Path('production-update/game-data.json').read_text())
+          assert len(d['roster'])==112
+          assert len(d['variants'])==12 and d['variants'][-1]=='Scourge'
+          assert len(d['rebirths'])==6 and sum(len(c) for c in d['rebirths'].values())==240
+          app=Path('index.html').read_text()
+          assert len(re.findall('class="fusionCard"',app))==28
+          assert 'exportCollection' in app and 'droidatlas-droidex-v1' in app
+          assert '1.2.2' in Path('service-worker.js').read_text()
+          assert Path('index.html').read_bytes()==Path('release/index.html').read_bytes()
+          print('PASS: release invariants')
+          PY
+      - name: Commit validated build into release branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html service-worker.js release/index.html release/service-worker.js production-update/game-data.json production-update/DroidAtlas_1.2_Data_Update.html production-update/DroidAtlas_1.2_Crystal_Test_v1.html package.json tests/regression.cjs tests/release.cjs
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build validated DroidAtlas 1.2.2 production release'
+            git push
+          fi
