@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Optional, explicitly granted in Settings. No file changes are made by the scanner. -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <!-- NO INTERNET permission, NO delete permissions, NO account access. -->
+
+    <application
+        android:label="DroidAtlas Storage Auditor"
+        android:allowBackup="false"
+        android:usesCleartextTraffic="false"
+        android:theme="@style/ScannerTheme">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
