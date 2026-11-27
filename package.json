@@ -1,6 +1,6 @@
 {
   "name": "droidatlas",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "private": true,
   "scripts": {
     "build": "node tools/build-production.cjs && node tools/build-crystal-test.cjs && node tools/build-release.cjs && python3 patches/apply_v140.py",
