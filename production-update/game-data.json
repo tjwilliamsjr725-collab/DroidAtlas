@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.3-game-v1.40-2026.11.26-rb36-verified",
+  "version": "1.2.4-game-v1.40-2026.11.27-rb37-verified",
   "baselineCommit": "85ab259893c6a043d2c8f34ab7ed485ee7fcc8a2",
   "rebirths": {
     "1": {
@@ -3163,9 +3163,11 @@
             "variant": "Kyber"
           }
         ],
-        "requirementsStatus": "community-preview",
-        "creditsStatus": "community-preview",
-        "source": "droidex-2026-11-05"
+        "requirementsStatus": "verified-ingame",
+        "creditsStatus": "verified-ingame",
+        "source": "in-game-screenshot-2026-11-27-path-4-rb-37",
+        "evidenceNote": "In-game photo supplied Nov 27, 2026 (local): PATH 4, REBIRTH Rank 37. Credits shown as 2.50Qa (equivalent to app display 2.5Qa); SEN-TRI, Opti-Pod, Gunrunner, all Kyber. Green checkmarks show three droid requirements met in pictured player's state, not global ownership.",
+        "rewardEvidenceNote": "Screenshot rewards: 100B credits, +340% multiplier, +250% EXP, +10% offline earnings, 300 Nova Crystals. Separate Super Rebirth button displays 407 Nova Crystals. App does not yet model rebirth rewards."
       },
       "38": {
         "credits": "4.5Qa",
