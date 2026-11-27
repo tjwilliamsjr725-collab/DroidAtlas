@@ -52,7 +52,7 @@ const server=http.createServer((req,res)=>{
  assert.match(path4,/Requirements · Verified in game/);
  await page.locator('#rebirthSelect').selectOption('37');
  const path437=await page.locator('#answer').innerText();
- assert.match(path437,/2\\.5Qa/);
+ assert.match(path437,/2[.]5Qa/);
  assert.match(path437,/SEN-TRI/);
  assert.match(path437,/Opti-Pod/);
  assert.match(path437,/Gunrunner/);
