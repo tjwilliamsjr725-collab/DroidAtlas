@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.4-game-v1.40-2026.11.27-rb37-verified",
+  "version": "1.2.5-game-v1.40-2026.11.27-rb38-verified",
   "baselineCommit": "85ab259893c6a043d2c8f34ab7ed485ee7fcc8a2",
   "rebirths": {
     "1": {
@@ -3185,9 +3185,11 @@
             "variant": "Kyber"
           }
         ],
-        "requirementsStatus": "community-preview",
-        "creditsStatus": "community-preview",
-        "source": "droidex-2026-11-05"
+        "requirementsStatus": "verified-ingame",
+        "creditsStatus": "verified-ingame",
+        "source": "in-game-screenshot-2026-11-27-path-4-rb-38",
+        "evidenceNote": "Player-provided in-game photo on 2026-11-27: PATH 4, Rebirth Rank 38. Credits 4.500Qa (same numerical value as 4.5Qa in DroidAtlas), Kyber B1 Heavy, Kyber Groundmech, Kyber R7. Checkmarks/crosses indicate that player's pictured state only, not any user's saved Droidex acquisition history.",
+        "rewardEvidenceNote": "Visible gain cards: Credits 250B, Multiplier +360%, EXP +300%, Crit Amount +15%, Nova Crystals 300. Separate Super Rebirth option advertises 436 Nova Crystals. Rewards are documented but not modeled in the current DroidAtlas planner."
       },
       "39": {
         "credits": "8Qa",
