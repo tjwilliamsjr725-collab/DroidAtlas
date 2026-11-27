@@ -1,3 +1,9 @@
+## 1.2.6 — November 27, 2026
+
+- Verified Path 4 / RB39 in game: 8.000Qa credits (app value 8Qa) and Kyber Proto-Roller, B2-RP, Snow Mouse. Existing values matched, so updated verification labels only.
+- Documented screenshot rewards without changing the Rebirth planner's data model.
+- Preserved prior verified Path 4 RB36–38, six cycles, 112-droid roster, 28 fusion recipes, Kyber artwork and saved collection keys.
+
 ## 1.2.5 — November 27, 2026
 
 - Verified Path 4 / RB38 against a player-supplied screenshot: credits 4.500Qa (app value 4.5Qa) and Kyber B1 Heavy, Groundmech, R7. Existing values matched; now evidence-labeled as verified-in-game.
