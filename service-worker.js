@@ -1,4 +1,4 @@
-const CACHE_NAME='droidatlas-1.2.4-data-20261127-rb37-v1';
+const CACHE_NAME='droidatlas-1.2.5-data-20261127-rb38-v1';
 const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
