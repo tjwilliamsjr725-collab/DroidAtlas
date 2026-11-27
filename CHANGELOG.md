@@ -1,3 +1,9 @@
+## 1.2.4 — November 27, 2026
+
+- Verified Path 4 / RB37 against an in-game photo: 2.50Qa credits and SEN-TRI, Opti-Pod, Gunrunner, each Kyber. The app's existing data matched; update only the evidence classifications to verified-in-game.
+- Preserved all 240 Rebirth rows, 112-droid roster, 28 Fusion recipes, collection storage, and Kyber artwork.
+- Documented visible rewards separately; not added to the Rebirth data model.
+
 
 ## 1.2.3 — November 26, 2026
 
