@@ -25,6 +25,7 @@ for(const [cycle,rows]of Object.entries(d.rebirths)){
   if(JSON.stringify(signature(r.requirements))!==JSON.stringify(signature(other[cycle][rb].requirements)))differences.push({cycle,rb,app:r.requirements,other:other[cycle][rb].requirements});
   if(+rb===36){if(cycle==='4'){assert.equal(r.credits,'1.19Qa');assert.equal(r.creditsStatus,'verified-ingame');assert.equal(r.requirementsStatus,'verified-ingame');}else assert.equal(r.creditsStatus,'conflicting-community');continue;}
   if(cycle==='4'&&+rb===37){assert.equal(r.credits,'2.5Qa');assert.equal(r.creditsStatus,'verified-ingame');assert.equal(r.requirementsStatus,'verified-ingame');assert.deepEqual(r.requirements,[{droid:'SEN-TRI',variant:'Kyber'},{droid:'Opti-Pod',variant:'Kyber'},{droid:'Gunrunner',variant:'Kyber'}]);}
+  if(cycle==='4'&&+rb===38){assert.equal(r.credits,'4.5Qa');assert.equal(r.creditsStatus,'verified-ingame');assert.equal(r.requirementsStatus,'verified-ingame');assert.deepEqual(r.requirements,[{droid:'B1 Heavy',variant:'Kyber'},{droid:'Groundmech',variant:'Kyber'},{droid:'R7',variant:'Kyber'}]);}
   if(credit(r.credits)!==credit(other[cycle][rb].credits))creditDifferences.push({cycle,rb,app:r.credits,other:other[cycle][rb].credits});
  }
 }
