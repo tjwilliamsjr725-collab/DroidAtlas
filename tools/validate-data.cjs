@@ -24,10 +24,11 @@ for(const [cycle,rows]of Object.entries(d.rebirths)){
   for(const x of r.requirements){assert(names.has(x.droid),'Missing roster '+x.droid);assert(variants.has(x.variant),'Invalid tier '+x.variant)}
   if(JSON.stringify(signature(r.requirements))!==JSON.stringify(signature(other[cycle][rb].requirements)))differences.push({cycle,rb,app:r.requirements,other:other[cycle][rb].requirements});
   if(+rb===36){if(cycle==='4'){assert.equal(r.credits,'1.19Qa');assert.equal(r.creditsStatus,'verified-ingame');assert.equal(r.requirementsStatus,'verified-ingame');}else assert.equal(r.creditsStatus,'conflicting-community');continue;}
+  if(cycle==='4'&&+rb===37){assert.equal(r.credits,'2.5Qa');assert.equal(r.creditsStatus,'verified-ingame');assert.equal(r.requirementsStatus,'verified-ingame');assert.deepEqual(r.requirements,[{droid:'SEN-TRI',variant:'Kyber'},{droid:'Opti-Pod',variant:'Kyber'},{droid:'Gunrunner',variant:'Kyber'}]);}
   if(credit(r.credits)!==credit(other[cycle][rb].credits))creditDifferences.push({cycle,rb,app:r.credits,other:other[cycle][rb].credits});
  }
 }
-const report={checkedAt:'2026-11-05',rows:240,requirementDifferences:differences.length,creditDifferences:creditDifferences.length,unresolvedCreditRows:5,differences,creditDifferenceDetails:creditDifferences,note:'Cross-source agreement is community corroboration, not direct in-game certification.'};
+const report={checkedAt:'2026-11-27',rows:240,requirementDifferences:differences.length,creditDifferences:creditDifferences.length,unresolvedCreditRows:5,differences,creditDifferenceDetails:creditDifferences,note:'Cross-source agreement is community corroboration, not direct in-game certification.'};
 fs.writeFileSync('research/final-data-validation.json',JSON.stringify(report,null,2));
 console.log(JSON.stringify(report,null,2));
 assert.equal(differences.length,0,'Community tables disagree; review before publishing');assert.equal(creditDifferences.length,0);
