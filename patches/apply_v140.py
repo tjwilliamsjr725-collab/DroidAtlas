@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""DroidAtlas v1.2.3: merge v1.40 Fusion / Scourge data into existing production."""
+"""DroidAtlas v1.2.4: merge v1.40 Fusion / Scourge data into existing production."""
 import json, re, html as htmllib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-VERSION="1.2.3"
+VERSION="1.2.4"
 FUSIONS=[
 ("ION Probe","Worker","Common",["Mouse","Mouse","ID10"]),
 ("Quad Sentry","Astromech","Common",["R5","R5","ID10"]),
@@ -40,7 +40,7 @@ for name,cls,rarity,_ in FUSIONS:
   names.add(name)
 if "D-O" not in names:data["roster"].append({"name":"D-O","class":"Worker","rarity":"Iconic","type":"Iconic"})
 if "Scourge" not in data["variants"]:data["variants"].append("Scourge")
-data["version"]="1.2.3-game-v1.40-2026.11.26-rb36-verified"
+data["version"]="1.2.4-game-v1.40-2026.11.27-rb37-verified"
 data["sources"]["official140"]="https://communities.epicgames.com/thread/new-fusion-droids-v1-40-0/i9zr"
 data["sources"]["community140"]="https://www.reddit.com/r/StarWarsDroidTycoon/comments/1y5ci54/"
 data["variantStatus"]="Scourge is a distinct historical acquisition finish; per-droid eligibility needs in-game confirmation."
@@ -50,6 +50,7 @@ assert len(data["roster"])==112 and len({d["name"] for d in data["roster"]})==11
 assert next(d for d in data["roster"] if d["name"]=="Proto-Roller")["rarity"]=="Legendary"
 assert data["variants"][-1]=="Scourge"
 assert data["rebirths"]["4"]["36"]["credits"]=="1.19Qa" and data["rebirths"]["4"]["36"]["creditsStatus"]=="verified-ingame"
+assert data["rebirths"]["4"]["37"]["credits"]=="2.5Qa" and data["rebirths"]["4"]["37"]["creditsStatus"]=="verified-ingame" and data["rebirths"]["4"]["37"]["requirementsStatus"]=="verified-ingame"
 save(data_path,json.dumps(data,ensure_ascii=False,indent=2)+"\n")
 app=index_path.read_text(encoding="utf-8")
 assert '<script id="game-data" type="application/json">' in app,"Expected production 1.2.1 app"
@@ -85,13 +86,13 @@ style="""<style id="droidatlas-scourge-finish">
 </style>"""
 if 'id="droidatlas-scourge-finish"' not in app:app=app.replace("</head>",style+"\n</head>",1)
 app=app.replace("browse all 17 in-game-validated Fusion recipes","browse all 28 Fusion recipes (11 new; community reported)")
-app=app.replace("DROIDATLAS 1.2.1","DROIDATLAS 1.2.3").replace('content="1.2.1"','content="1.2.3"').replace("Data review 2026-11-05","Data review 2026-11-26 · Fusion update v1.40")
+app=app.replace("DROIDATLAS 1.2.1","DROIDATLAS 1.2.4").replace('content="1.2.1"','content="1.2.4"').replace("Data review 2026-11-05","Data review 2026-11-26 · Fusion update v1.40")
 assert "REPORTED LAST NEED" in app and "exportCollection" in app and "28 known recipes" in app
 assert "droidatlas-droidex-v1" in app and "droidatlas-tab" in app
 save(index_path,app)
 save(ROOT/"release/index.html",app)
 worker=worker_path.read_text(encoding="utf-8")
-worker=sub(worker,r"const CACHE_NAME='droidatlas-[^']+';","const CACHE_NAME='droidatlas-1.2.3-data-20261126-rb36-v1';","service worker cache")
+worker=sub(worker,r"const CACHE_NAME='droidatlas-[^']+';","const CACHE_NAME='droidatlas-1.2.4-data-20261127-rb37-v1';","service worker cache")
 save(worker_path,worker)
 save(ROOT/"release/service-worker.js",worker)
 reg=ROOT/"tests/regression.cjs"
@@ -100,11 +101,11 @@ if reg.exists():
  save(reg,text)
 release_test=ROOT/"tests/release.cjs"
 if release_test.exists():
- text=release_test.read_text(encoding="utf-8").replace("1.2.1","1.2.3").replace("1000$/","1223$/")
+ text=release_test.read_text(encoding="utf-8").replace("1.2.1","1.2.4").replace("1000$/","1223$/")
  save(release_test,text)
 pkg=ROOT/"package.json"
 p=json.loads(pkg.read_text(encoding="utf-8"))
-p["version"]="1.2.3"
+p["version"]="1.2.4"
 if "python3 patches/apply_v140.py" not in p["scripts"]["build"]:
  p["scripts"]["build"]+=" && python3 patches/apply_v140.py"
 save(pkg,json.dumps(p,indent=2)+"\n")
