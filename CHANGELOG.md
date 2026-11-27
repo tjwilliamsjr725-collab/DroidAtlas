@@ -1,3 +1,9 @@
+
+## 1.2.3 — November 26, 2026
+
+- Verified in-game Path 4 / Rebirth 36: exact credit requirement **1.19Qa** and three **Kyber** droids (NAV-EX, Bal-Core, VECT-ARM) from a user screenshot.
+- Replaced the unresolved credits badge with a verified in-game label for this specific row; preserved existing Rebirth cycles, roster, Fusion recipes, saved collection data, and theme artwork.
+- Remaining Path 1–3 and 5–6 RB36 credit requirements stay unresolved.
 # 1.2.1 — November 5, 2026
 
 - Updated the production 1.2 planner to six reported cycles through RB40 and expanded the roster/Kyber acquisition states.
