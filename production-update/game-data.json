@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.2-game-v1.40-2026.11.26",
+  "version": "1.2.3-game-v1.40-2026.11.26-rb36-verified",
   "baselineCommit": "85ab259893c6a043d2c8f34ab7ed485ee7fcc8a2",
   "rebirths": {
     "1": {
@@ -3123,7 +3123,7 @@
         "source": "droidex-2026-11-05"
       },
       "36": {
-        "credits": "Exact cost pending",
+        "credits": "1.19Qa",
         "requirements": [
           {
             "droid": "NAV-EX",
@@ -3138,13 +3138,14 @@
             "variant": "Kyber"
           }
         ],
-        "requirementsStatus": "community-preview",
-        "creditsStatus": "conflicting-community",
-        "source": "droidex-2026-11-05",
+        "requirementsStatus": "verified-ingame",
+        "creditsStatus": "verified-ingame",
+        "source": "in-game-screenshot-2026-11-26-path-4-rb-36",
         "reportedCredits": [
           "1.19Qa",
           "1.2Qa"
-        ]
+        ],
+        "evidenceNote": "Screenshot supplied by player on November 26, 2026: PATH 4, REBIRTH Rank 36. Credits 1.19Qa; NAV-EX, Bal-Core, and VECT-ARM, each Kyber. Historical community credit disagreement retained in reportedCredits."
       },
       "37": {
         "credits": "2.5Qa",

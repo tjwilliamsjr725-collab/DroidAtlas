@@ -1,0 +1,57 @@
+name: Validate DroidAtlas 1.2.3 Path 4 RB36 verification
+on:
+  push:
+    branches:
+      - data/verify-path4-rb36-20261126
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install
+      - name: Install browser
+        run: npx playwright install --with-deps chrome
+      - name: Build and test all features
+        run: |
+          npm run build
+          npm test
+      - name: Verify exact Path 4 RB36 data and source labels
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          d=json.loads(Path('production-update/game-data.json').read_text())
+          row=d['rebirths']['4']['36']
+          assert row['credits']=='1.19Qa'
+          assert row['creditsStatus']=='verified-ingame'
+          assert row['requirementsStatus']=='verified-ingame'
+          assert [(x['droid'],x['variant']) for x in row['requirements']]==[('NAV-EX','Kyber'),('Bal-Core','Kyber'),('VECT-ARM','Kyber')]
+          assert sum(d['rebirths'][s]['36']['creditsStatus']=='conflicting-community' for s in d['rebirths'])==5
+          assert len(d['roster'])==112 and len(d['variants'])==12
+          assert sum(len(v) for v in d['rebirths'].values())==240
+          h=Path('index.html').read_text()
+          assert 'Credits · Verified in game' in h
+          assert 'Requirements · Verified in game' in h
+          assert len(re.findall('class="fusionCard"',h))==28
+          assert Path('index.html').read_bytes()==Path('release/index.html').read_bytes()
+          assert '1.2.3' in Path('service-worker.js').read_text()
+          print('PASS: verified screenshot requirements; 5 other RB36 unresolved; 112 droids; 28 fusion; 240 rebirth rows')
+          PY
+      - name: Commit tested artifacts to branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html release/index.html service-worker.js release/service-worker.js production-update/game-data.json production-update/DroidAtlas_1.2_Data_Update.html production-update/DroidAtlas_1.2_Crystal_Test_v1.html package.json tests/release.cjs research/final-data-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build validated DroidAtlas 1.2.3 Path 4 RB36 data update'
+            git push
+          fi

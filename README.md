@@ -34,3 +34,7 @@ Install the development dependency with `npm install`; the tests expect Chrome t
 Maintained game data: `production-update/game-data.json`. Original production baseline: `baseline/github-production-1.2.html`. Crystal masters: `artwork/kyber-plaques/`. Validation reports: `research/final-data-validation.json`, `tests/plaque-audit.json`, and `tests/release-validation.json`.
 
 Theme extraction and further skin/PWA packaging work are separate side-project work, not prerequisites for keeping the tool current.
+
+## Verified in-game: Path 4 / RB36 (2026-11-26)
+
+A player-supplied in-game screenshot verifies the precise **1.19Qa** credit requirement and **NAV-EX, Bal-Core, VECT-ARM** (all **Kyber**). This replaces the formerly unresolved credit cost for Path 4 / RB36 only. The conflicting 1.2Qa community report remains recorded for provenance; other RB36 paths remain unverified. The screenshot also shows the rewards (50B credits, +320% multiplier, +250% EXP, 300 Nova Crystals), which are not yet tracked in the Rebirth data model. Build v1.2.3 updates the in-app badges to display the verified status on this single row. All other paths and requirements remain subject to their prior evidence labels.
