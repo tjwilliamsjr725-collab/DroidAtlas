@@ -1,3 +1,9 @@
+## 1.2.5 — November 27, 2026
+
+- Verified Path 4 / RB38 against a player-supplied screenshot: credits 4.500Qa (app value 4.5Qa) and Kyber B1 Heavy, Groundmech, R7. Existing values matched; now evidence-labeled as verified-in-game.
+- Recorded rewards as evidence metadata only, without changing app reward tracking.
+- Preserved the previous verified Path 4 RB36 and RB37 rows, all six cycles, droid roster, fusion catalog, Kyber art and historical collection keys.
+
 ## 1.2.4 — November 27, 2026
 
 - Verified Path 4 / RB37 against an in-game photo: 2.50Qa credits and SEN-TRI, Opti-Pod, Gunrunner, each Kyber. The app's existing data matched; update only the evidence classifications to verified-in-game.

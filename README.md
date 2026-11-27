@@ -42,3 +42,7 @@ A player-supplied in-game screenshot verifies the precise **1.19Qa** credit requ
 ## Verified in-game: Path 4 / RB37 (2026-11-27)
 
 Player-supplied in-game photo confirms **2.50Qa** credits (existing app value **2.5Qa**), **SEN-TRI, Opti-Pod, Gunrunner**, all **Kyber**. These values already matched our community-reported Path 4 / RB37 row; DroidAtlas 1.2.4 upgrades only its credits and requirements evidence badges to **Verified in game**. The image also shows 100B credits, +340% multiplier, +250% EXP, +10% offline income, and 300 Nova Crystals as Rebirth rewards, plus an option for 407 Nova Crystals via Super Rebirth. Rewards are evidence notes only because the current app doesn't model them. Droid acquisition state must not be inferred from the screenshot's green checks.
+
+## Verified in game: Path 4 / RB38 (2026-11-27)
+
+The player-supplied screenshot confirms the already recorded **4.500Qa** credits (numerically identical to **4.5Qa**) and three **Kyber** droids: **B1 Heavy, Groundmech, R7**. DroidAtlas 1.2.5 changes their credits and requirements evidence statuses to **Verified in game**, without changing values. The image additionally shows rewards of 250B credits, +360% multiplier, +300% EXP, +15% **Crit Amount**, and 300 Nova Crystals. A separate Super Rebirth button displays 436 Nova Crystals. Reward details are evidence notes only, not integrated into the current planner. Visual green/red indicators reflect the pictured player's state; they must not be used to alter historical Droidex acquisition tracking.
