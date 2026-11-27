@@ -1,0 +1,53 @@
+name: Validate DroidAtlas 1.2.4 Path 4 RB37 verification
+on:
+  push:
+    branches:
+      - data/verify-path4-rb37-20261127
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install
+      - name: Install Chrome for regression tests
+        run: npx playwright install --with-deps chrome
+      - name: Rebuild production and run all regression tests
+        run: |
+          npm run build
+          npm test
+      - name: Confirm screenshot data and unchanged progression data
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          d=json.loads(Path('production-update/game-data.json').read_text())
+          r=d['rebirths']['4']['37']
+          assert r['credits']=='2.5Qa'
+          assert r['creditsStatus']=='verified-ingame'
+          assert r['requirementsStatus']=='verified-ingame'
+          assert [(q['droid'],q['variant']) for q in r['requirements']]==[('SEN-TRI','Kyber'),('Opti-Pod','Kyber'),('Gunrunner','Kyber')]
+          assert d['rebirths']['4']['36']['credits']=='1.19Qa'
+          assert d['rebirths']['4']['36']['creditsStatus']=='verified-ingame'
+          assert sum(len(v) for v in d['rebirths'].values())==240
+          assert len(d['roster'])==112 and len(d['variants'])==12
+          assert len(re.findall('class="fusionCard"',Path('index.html').read_text()))==28
+          assert Path('index.html').read_bytes()==Path('release/index.html').read_bytes()
+          assert '1.2.4' in Path('service-worker.js').read_text()
+          print('PASS: screenshot evidence and 240 rows, 112 droids, 28 Fusion recipes, retained collection storage')
+          PY
+      - name: Commit verified production build
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html release/index.html service-worker.js release/service-worker.js production-update/game-data.json production-update/DroidAtlas_1.2_Data_Update.html production-update/DroidAtlas_1.2_Crystal_Test_v1.html package.json tests/release.cjs research/final-data-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build tested DroidAtlas 1.2.4 Path 4 RB37 verification'
+            git push
+          fi

@@ -38,3 +38,7 @@ Theme extraction and further skin/PWA packaging work are separate side-project w
 ## Verified in-game: Path 4 / RB36 (2026-11-26)
 
 A player-supplied in-game screenshot verifies the precise **1.19Qa** credit requirement and **NAV-EX, Bal-Core, VECT-ARM** (all **Kyber**). This replaces the formerly unresolved credit cost for Path 4 / RB36 only. The conflicting 1.2Qa community report remains recorded for provenance; other RB36 paths remain unverified. The screenshot also shows the rewards (50B credits, +320% multiplier, +250% EXP, 300 Nova Crystals), which are not yet tracked in the Rebirth data model. Build v1.2.3 updates the in-app badges to display the verified status on this single row. All other paths and requirements remain subject to their prior evidence labels.
+
+## Verified in-game: Path 4 / RB37 (2026-11-27)
+
+Player-supplied in-game photo confirms **2.50Qa** credits (existing app value **2.5Qa**), **SEN-TRI, Opti-Pod, Gunrunner**, all **Kyber**. These values already matched our community-reported Path 4 / RB37 row; DroidAtlas 1.2.4 upgrades only its credits and requirements evidence badges to **Verified in game**. The image also shows 100B credits, +340% multiplier, +250% EXP, +10% offline income, and 300 Nova Crystals as Rebirth rewards, plus an option for 407 Nova Crystals via Super Rebirth. Rewards are evidence notes only because the current app doesn't model them. Droid acquisition state must not be inferred from the screenshot's green checks.
