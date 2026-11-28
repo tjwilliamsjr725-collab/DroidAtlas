@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "status": "IGV",
+  "statusMeaning": "In-game verified",
+  "asOfDate": "2026-11-27",
+  "verificationBasis": "Project-owner attestation that a trusted tester personally verified all 28 existing Fusion recipes in-game; not independently rechecked by assistant.",
+  "scope": "Only the 28 explicitly listed recipe results. New recipes introduced later are NOT automatically IGV.",
+  "recipes": [
+    {
+      "result": "WHL-EX",
+      "status": "IGV"
+    },
+    {
+      "result": "ZRO-TEC",
+      "status": "IGV"
+    },
+    {
+      "result": "BTL-R",
+      "status": "IGV"
+    },
+    {
+      "result": "N-UL",
+      "status": "IGV"
+    },
+    {
+      "result": "SCRP-R",
+      "status": "IGV"
+    },
+    {
+      "result": "ARM-CORE",
+      "status": "IGV"
+    },
+    {
+      "result": "OPT-AR",
+      "status": "IGV"
+    },
+    {
+      "result": "RO-TOR",
+      "status": "IGV"
+    },
+    {
+      "result": "FUS-3",
+      "status": "IGV"
+    },
+    {
+      "result": "ORB-XL",
+      "status": "IGV"
+    },
+    {
+      "result": "QIK-BIT",
+      "status": "IGV"
+    },
+    {
+      "result": "RIV-3T",
+      "status": "IGV"
+    },
+    {
+      "result": "LUG-G",
+      "status": "IGV"
+    },
+    {
+      "result": "X-ONK",
+      "status": "IGV"
+    },
+    {
+      "result": "SRV-O",
+      "status": "IGV"
+    },
+    {
+      "result": "AXI-POD",
+      "status": "IGV"
+    },
+    {
+      "result": "LOW-MO",
+      "status": "IGV"
+    },
+    {
+      "result": "ION Probe",
+      "status": "IGV"
+    },
+    {
+      "result": "Quad Sentry",
+      "status": "IGV"
+    },
+    {
+      "result": "LFT-3R",
+      "status": "IGV"
+    },
+    {
+      "result": "BI-Bit",
+      "status": "IGV"
+    },
+    {
+      "result": "STRD-3",
+      "status": "IGV"
+    },
+    {
+      "result": "HV-EE",
+      "status": "IGV"
+    },
+    {
+      "result": "TOR-Q",
+      "status": "IGV"
+    },
+    {
+      "result": "AX-L",
+      "status": "IGV"
+    },
+    {
+      "result": "MO-TRO",
+      "status": "IGV"
+    },
+    {
+      "result": "KL-NK",
+      "status": "IGV"
+    },
+    {
+      "result": "SKM-MR",
+      "status": "IGV"
+    }
+  ]
+}
