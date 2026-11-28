@@ -5,10 +5,10 @@
 (() => {
   'use strict';
   const STORAGE_KEY='droidatlas-theme-v1';
-  const DEFAULT_ID='kyber-crystal';
+  const DEFAULT_ID='default';
   const registryURL='./themes/manifest.json';
   const FALLBACK=[
-    {id:'kyber-crystal',name:'Kyber Crystal',description:'Approved default theme',css:'./themes/kyber-crystal/theme.css'},
+    {id:'default',name:'Default',description:'Original orange-and-blue command theme',css:'./themes/default/theme.css'},
     {id:'steel-night',name:'Steel Night (Preview)',description:'Dark steel experimental shell',css:'./themes/steel-night/theme.css'}
   ];
   const root=document.documentElement;
@@ -17,11 +17,14 @@
   let switching=0;
   let controls=null;
   function saved(){
-    try{return localStorage.getItem(STORAGE_KEY)||DEFAULT_ID;}
+    try{const stored=localStorage.getItem(STORAGE_KEY);return stored==='kyber-crystal'?DEFAULT_ID:(stored||DEFAULT_ID);}
     catch(_){return DEFAULT_ID;}
   }
   function store(id){
     try{localStorage.setItem(STORAGE_KEY,id);}catch(_){/* Private browsing */ }
+  }
+  function savedLegacyAlias(){
+    try{return localStorage.getItem(STORAGE_KEY)==='kyber-crystal';}catch(_){return false;}
   }
   function validEntries(input){
     if(!Array.isArray(input)||input.length===0||input.length>20)throw Error('Invalid theme registry');
@@ -61,7 +64,7 @@
       root.setAttribute('data-da-theme',DEFAULT_ID);
       active=DEFAULT_ID;
       if(persist)store(active);
-      status('Approved Kyber Crystal theme active.');
+      status('Default orange-and-blue theme active.');
       return active;
     }
     status('Loading '+target.name+'…');
@@ -134,6 +137,8 @@
   async function start(){
     themes=await readRegistry();
     const requested=saved();
+    // Silently migrate the old misnamed preview preference without altering Droidex keys.
+    if(requested===DEFAULT_ID&&savedLegacyAlias())store(DEFAULT_ID);
     if(!themes.some(x=>x.id===requested))store(DEFAULT_ID);
     mountControls();
     try{await switchTo(themes.some(x=>x.id===requested)?requested:DEFAULT_ID,{persist:false});}
