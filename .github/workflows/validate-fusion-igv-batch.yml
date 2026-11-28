@@ -1,0 +1,50 @@
+name: Validate staged Fusion IGV batch
+on:
+  push:
+    branches:
+      - batch/fusion-igv-and-rebirth-backlog-20261127
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-fusion-igv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install
+      - name: Install browser for regression tests
+        run: npx playwright install --with-deps chrome
+      - name: Build staged HTML and run existing and new tests
+        run: |
+          npm run build
+          npm test
+      - name: Ensure version and scope remain staged
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          p=json.loads(Path('production-update/fusion-verification.json').read_text())
+          d=json.loads(Path('production-update/game-data.json').read_text())
+          h=Path('index.html').read_text()
+          assert len(p['recipes'])==28
+          assert all(x['status']=='IGV' for x in p['recipes'])
+          assert len(re.findall(r'<div class="fusionStatus">IGV · Verified in game</div>',h))==28
+          assert len(d['roster'])==112 and len(d['variants'])==12
+          assert len(d['rebirths'])==6 and sum(map(len,d['rebirths'].values()))==240
+          assert d['version'].startswith('1.2.6-')
+          assert Path('index.html').read_bytes()==Path('release/index.html').read_bytes()
+          print('PASS: 28 IGV recipe cards; six cycles, 112 droids, 28 recipes; no production version bump')
+          PY
+      - name: Commit validated staged preview on development branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html release/index.html production-update/DroidAtlas_1.2_Crystal_Test_v1.html production-update/DroidAtlas_1.2_Data_Update.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Fusion IGV preview on batch branch only'
+            git push
+          fi
