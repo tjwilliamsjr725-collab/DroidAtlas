@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node tools/build-production.cjs && node tools/build-crystal-test.cjs && node tools/build-release.cjs && python3 patches/apply_v140.py",
-    "test": "node tools/validate-data.cjs && node tests/plaques.cjs --crystal && node tests/regression.cjs --production --crystal && node tests/release.cjs"
+    "test": "node tools/validate-data.cjs && node tests/plaques.cjs --crystal && node tests/regression.cjs --production --crystal && node tests/release.cjs && node tests/fusion-igv.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"
