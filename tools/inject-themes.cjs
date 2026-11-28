@@ -7,7 +7,7 @@ const release=path.join(root,'release');
 const themeRoot=path.join(root,'themes');
 const registry=JSON.parse(fs.readFileSync(path.join(themeRoot,'manifest.json'),'utf8'));
 assert.equal(registry.schemaVersion,1);
-assert.equal(registry.defaultTheme,'kyber-crystal');
+assert.equal(registry.defaultTheme,'default');
 assert(registry.themes.length>=1);
 const ids=new Set();
 for(const t of registry.themes){
