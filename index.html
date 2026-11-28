@@ -834,6 +834,7 @@ body:after{
 #droidexView .dxVariant[data-variant="Scourge"]{color:#edcaf6;border-color:#a44ac4;background:linear-gradient(145deg,#351342,#13081f 72%);box-shadow:inset 0 0 9px rgba(199,65,215,.22),0 0 0 1px rgba(116,30,145,.14)}
 #droidexView .dxVariant[data-variant="Scourge"].filled{color:#fff2fd;border:1px solid #e58dfd;background:linear-gradient(135deg,#6e1d83,#361044 65%,#510f5a);box-shadow:inset 0 0 14px rgba(247,139,255,.38),0 0 9px rgba(193,57,207,.25)}
 </style>
+<link rel="stylesheet" href="./themes/theme-engine.css" id="da-theme-control-styles">
 </head>
 <body>
 <div class="wrap">
@@ -1078,5 +1079,6 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
 </script>
 <script>
 document.getElementById('exportCollection').onclick=()=>{const backup={schemaVersion:1,exportedAt:new Date().toISOString(),collectionRaw:localStorage.getItem(DX_KEY),backupRaw:localStorage.getItem(DX_KEY+'-backup-1.2-data-update')};const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(backup,null,2)],{type:'application/json'}));a.download='DroidAtlas-collection-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
-</script></body>
+</script><script src="./themes/engine.js" defer></script>
+</body>
 </html>
