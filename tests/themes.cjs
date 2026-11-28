@@ -21,7 +21,7 @@ const server=http.createServer((req,res)=>{
     page.on('pageerror',e=>errors.push(e.message));
     page.on('request',req=>{if(!req.url().startsWith(origin)&&!req.url().startsWith('data:'))crossOrigin.push(req.url());});
     await page.goto(origin);
-    await page.waitForSelector('#da-theme-settings');
+    await page.waitForSelector('#da-theme-settings',{state:'attached'});
     const base=await page.evaluate(()=>({
       active:window.DroidAtlasThemes.getActive(),
       bg:getComputedStyle(document.documentElement).getPropertyValue('--cmd-orange').trim(),
@@ -59,7 +59,7 @@ const server=http.createServer((req,res)=>{
     await page.locator('#closeInfo').click();
     await page.evaluate(()=>localStorage.setItem('droidatlas-theme-v1','../../untrusted.css'));
     await page.reload();
-    await page.waitForSelector('#da-theme-settings');
+    await page.waitForSelector('#da-theme-settings',{state:'attached'});
     assert.equal(await page.evaluate(()=>window.DroidAtlasThemes.getActive()),'kyber-crystal','Invalid theme ID must fall back to safe default');
     assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-theme-v1')),'kyber-crystal');
     assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-droidex-v1')),state);
@@ -70,7 +70,7 @@ const server=http.createServer((req,res)=>{
     assert(await page.evaluate(()=>!!navigator.serviceWorker.controller),'Theme preview must be controlled by service worker');
     await context.setOffline(true);
     await page.reload();
-    await page.waitForSelector('#da-theme-settings');
+    await page.waitForSelector('#da-theme-settings',{state:'attached'});
     await page.locator('#infoBtn').click();
     await page.locator('#da-theme-select').selectOption('steel-night');
     await page.waitForFunction(()=>window.DroidAtlasThemes.getActive()==='steel-night');
