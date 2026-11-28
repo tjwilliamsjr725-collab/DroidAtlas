@@ -44,7 +44,8 @@ for(const item of registry.themes)files.push(item.css,item.package);
 const match=worker.match(/const APP_SHELL=(\[[^\]]*\]);/);
 assert(match,'Service worker APP_SHELL anchor missing');
 const original=[...match[1].matchAll(/['"]([^'"]+)['"]/g)].map(m=>m[1]);
-const updated=[...new Set([...original,...files])];
+// Drop stale theme paths from earlier previews before regenerating the offline cache manifest.
+const updated=[...new Set([...original.filter(item=>!item.startsWith('./themes/')),...files])];
 for(const f of files)assert(fs.existsSync(path.join(release,f)),'Missing release asset '+f);
 worker=worker.replace(match[0],'const APP_SHELL='+JSON.stringify(updated)+';');
 worker=worker.replace(/const CACHE_NAME='droidatlas-[^']+';/,
