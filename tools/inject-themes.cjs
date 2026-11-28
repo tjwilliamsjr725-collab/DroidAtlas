@@ -21,6 +21,8 @@ for(const t of registry.themes){
  assert(fs.existsSync(path.join(root,t.css)), 'Missing theme stylesheet');
 }
 assert(ids.has(registry.defaultTheme));
+// Regenerate release theme directory from the registry-backed source packages only.
+fs.rmSync(path.join(release,'themes'),{recursive:true,force:true});
 fs.cpSync(themeRoot,path.join(release,'themes'),{recursive:true,force:true});
 
 const htmlPath=path.join(root,'index.html');
