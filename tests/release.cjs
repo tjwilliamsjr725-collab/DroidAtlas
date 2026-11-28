@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const {chromium}=require('./playwright.cjs');
 const root=path.join(__dirname,'..');let current=false;
-const mime={'.html':'text/html','.js':'application/javascript','.png':'image/png','.webmanifest':'application/manifest+json'};
+const mime={'.html':'text/html','.js':'application/javascript','.png':'image/png','.css':'text/css','.json':'application/json','.webmanifest':'application/manifest+json'};
 const server=http.createServer((req,res)=>{
  const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname).replace(/^\/DroidAtlas\//,'')||'index.html';
  if(name.includes('..')||name.includes('\\')){res.writeHead(400);res.end();return;}
