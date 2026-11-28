@@ -30,7 +30,7 @@ const server=http.createServer((req,res)=>{
       originalMarkup:document.querySelector('#rebirthView').innerHTML,
       themeControlVisible:!!document.querySelector('#da-theme-settings').getClientRects().length
     }));
-    assert.equal(base.active,'kyber-crystal');
+    assert.equal(base.active,'default');
     assert.equal(base.bg,'#fb4f14');
     assert.equal(base.dataSize,240);assert.equal(base.roster,112);
     assert.equal(base.themeControlVisible,false,'Theme settings must stay hidden until About is opened');
@@ -52,16 +52,25 @@ const server=http.createServer((req,res)=>{
     }
     await page.locator('#infoBtn').click();
     await page.locator('#da-theme-reset').click();
-    await page.waitForFunction(()=>window.DroidAtlasThemes.getActive()==='kyber-crystal');
+    await page.waitForFunction(()=>window.DroidAtlasThemes.getActive()==='default');
     assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--cmd-orange').trim()),base.bg);
     assert.equal(await page.evaluate(()=>document.getElementById('da-active-theme-sheet')),null,'Default theme must add no visual overrides');
-    assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-theme-v1')),'kyber-crystal');
+    assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-theme-v1')),'default');
     await page.locator('#closeInfo').click();
     await page.evaluate(()=>localStorage.setItem('droidatlas-theme-v1','../../untrusted.css'));
     await page.reload();
     await page.waitForSelector('#da-theme-settings',{state:'attached'});
-    assert.equal(await page.evaluate(()=>window.DroidAtlasThemes.getActive()),'kyber-crystal','Invalid theme ID must fall back to safe default');
-    assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-theme-v1')),'kyber-crystal');
+    assert.equal(await page.evaluate(()=>window.DroidAtlasThemes.getActive()),'default','Invalid theme ID must fall back to safe default');
+    assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-theme-v1')),'default');
+    assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-droidex-v1')),state);
+
+    // Old preview accidentally named the original appearance Kyber Crystal.
+    // Migrate only that theme preference; never touch exact-variant history.
+    await page.evaluate(()=>localStorage.setItem('droidatlas-theme-v1','kyber-crystal'));
+    await page.reload();
+    await page.waitForSelector('#da-theme-settings',{state:'attached'});
+    await page.waitForFunction(()=>window.DroidAtlasThemes.getActive()==='default');
+    assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-theme-v1')),'default','Legacy misnamed theme choice migrates');
     assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-droidex-v1')),state);
 
     // Offline PWA: both theme packages must remain switchable without network.
@@ -77,7 +86,7 @@ const server=http.createServer((req,res)=>{
     assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--cmd-orange').trim()),'#9cb8cb');
     assert.equal(await page.evaluate(()=>localStorage.getItem('droidatlas-droidex-v1')),state);
     await page.locator('#da-theme-reset').click();
-    await page.waitForFunction(()=>window.DroidAtlasThemes.getActive()==='kyber-crystal');
+    await page.waitForFunction(()=>window.DroidAtlasThemes.getActive()==='default');
     assert.equal(await page.evaluate(()=>document.querySelector('#rebirthView').innerHTML),base.originalMarkup,'Theme switching must leave Rebirth view untouched');
     assert.deepEqual(errors,[],'No theme-related script errors');
     assert.deepEqual(crossOrigin,[],'All theme files must be same-origin');
