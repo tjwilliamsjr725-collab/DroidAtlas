@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "defaultTheme": "kyber-crystal",
+  "themes": [
+    {
+      "id": "kyber-crystal",
+      "name": "Kyber Crystal",
+      "description": "Approved original green Kyber crystal artwork and chrome frame. Default look.",
+      "css": "./themes/kyber-crystal/theme.css",
+      "package": "./themes/kyber-crystal/theme.json"
+    },
+    {
+      "id": "steel-night",
+      "name": "Steel Night (Preview)",
+      "description": "Experimental dark steel command-shell colors; keeps variant rarity and Kyber indicators intact.",
+      "css": "./themes/steel-night/theme.css",
+      "package": "./themes/steel-night/theme.json"
+    }
+  ]
+}
