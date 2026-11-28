@@ -33,7 +33,7 @@ jobs:
           assert d['version'].startswith('1.2.6-')
           assert len(d['roster'])==112 and len(d['variants'])==12
           assert len(d['rebirths'])==6 and sum(len(x) for x in d['rebirths'].values())==240
-          assert len(m['themes'])==2 and m['defaultTheme']=='kyber-crystal'
+          assert len(m['themes'])==2 and m['defaultTheme']=='default'
           assert 'themes/engine.js' in h and 'droidatlas-droidex-v1' in h
           assert Path('index.html').read_bytes()==Path('release/index.html').read_bytes()
           for item in m['themes']:
@@ -41,7 +41,7 @@ jobs:
             assert Path('release',item['package']).exists()
           assert Path('release/themes/manifest.json').exists()
           assert 'theme-engine-preview' in Path('service-worker.js').read_text()
-          print('PASS: working core data retained; two local packages; default Kyber unchanged; offline assets staged')
+          print('PASS: working core data retained; two local packages; original orange/blue Default unchanged; offline assets staged')
           PY
       - name: Upload tested theme preview folder
         uses: actions/upload-artifact@v4
