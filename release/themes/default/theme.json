@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "default",
+  "name": "Default",
+  "version": "0.1.1",
+  "status": "approved-default",
+  "css": "./themes/default/theme.css",
+  "design": "Denver Broncos-inspired orange and blue Industrial Command design",
+  "artwork": {
+    "legacyArt": "The currently embedded production artwork, chrome and variant badges are retained unchanged",
+    "kyberPlaques": "Existing Kyber variant badges remain part of the default game's variant indicators; they do not make the whole theme Kyber Crystal."
+  },
+  "notes": "This is the established original orange-and-blue DroidAtlas appearance, not the future separate faceted green Kyber Crystal image theme."
+}

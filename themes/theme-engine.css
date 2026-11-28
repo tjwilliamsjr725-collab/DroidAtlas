@@ -1,0 +1,9 @@
+/* Isolated theme-settings styles: no effect unless About dialog is open. */
+#da-theme-settings{margin:16px 0 10px;padding:12px;background:#101b28;border:1px solid #3c566c;border-radius:8px;color:#f1f7fb;}
+#da-theme-settings h4{margin:0 0 8px;font-size:14px;font-weight:900;letter-spacing:.02em}
+#da-theme-settings p{font-size:12px;line-height:1.45;color:#aec1d4;margin:8px 0}
+#da-theme-settings label{display:block;font-size:12px;font-weight:700;margin-bottom:6px}
+#da-theme-settings select{width:100%;min-height:42px;background:#081321;color:#f5f9ff;border:1px solid #63819a;border-radius:6px;padding:8px;font-size:14px}
+#da-theme-settings button{background:#152b3b;color:#e9f4fb;border:1px solid #7898ac;padding:9px 12px;border-radius:6px;min-height:40px;font-size:12px;font-weight:800;cursor:pointer}
+#da-theme-settings button:focus-visible,#da-theme-settings select:focus-visible{outline:2px solid #d4edff;outline-offset:2px}
+#da-theme-status{min-height:18px}

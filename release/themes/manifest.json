@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "defaultTheme": "default",
+  "themes": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Original Denver Broncos-inspired orange-and-blue DroidAtlas command theme. Preserved as-is.",
+      "css": "./themes/default/theme.css",
+      "package": "./themes/default/theme.json"
+    },
+    {
+      "id": "steel-night",
+      "name": "Steel Night (Preview)",
+      "description": "Experimental dark steel command-shell colors; keeps variant rarity and Kyber indicators intact.",
+      "css": "./themes/steel-night/theme.css",
+      "package": "./themes/steel-night/theme.json"
+    }
+  ]
+}

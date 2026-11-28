@@ -1,0 +1,61 @@
+name: Theme Engine preview build and regression tests
+on:
+  push:
+    branches:
+      - feature/theme-engine-v0.1
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  theme-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install project dependencies
+        run: npm install
+      - name: Install Chrome for browser tests
+        run: npx playwright install --with-deps chrome
+      - name: Build Theme Engine preview and test entire app
+        run: |
+          npm run build
+          npm test
+      - name: Check core data and package isolation
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('production-update/game-data.json').read_text())
+          m=json.loads(Path('themes/manifest.json').read_text())
+          h=Path('index.html').read_text()
+          assert d['version'].startswith('1.2.6-')
+          assert len(d['roster'])==112 and len(d['variants'])==12
+          assert len(d['rebirths'])==6 and sum(len(x) for x in d['rebirths'].values())==240
+          assert len(m['themes'])==2 and m['defaultTheme']=='default'
+          assert 'themes/engine.js' in h and 'droidatlas-droidex-v1' in h
+          assert Path('index.html').read_bytes()==Path('release/index.html').read_bytes()
+          for item in m['themes']:
+            assert Path('release',item['css']).exists()
+            assert Path('release',item['package']).exists()
+          assert Path('release/themes/manifest.json').exists()
+          assert 'theme-engine-preview' in Path('service-worker.js').read_text()
+          print('PASS: working core data retained; two local packages; original orange/blue Default unchanged; offline assets staged')
+          PY
+      - name: Upload tested theme preview folder
+        uses: actions/upload-artifact@v4
+        with:
+          name: DroidAtlas-Theme-Engine-v0.1-Preview
+          path: release/
+          retention-days: 30
+          if-no-files-found: error
+      - name: Commit generated theme preview only to feature branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html service-worker.js release/index.html release/service-worker.js release/themes/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build tested Theme Engine v0.1 preview assets'
+            git push
+          fi

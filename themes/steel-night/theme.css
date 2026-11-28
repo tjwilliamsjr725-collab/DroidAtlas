@@ -1,0 +1,43 @@
+/* Steel Night · optional theme-proof package. Does not change semantics or variant colors. */
+html[data-da-theme="steel-night"]{
+  --cmd-bg:#070b12; --cmd-panel:#0d1722; --cmd-panel2:#14202c;
+  --cmd-edge:#475b6b; --cmd-orange:#9cb8cb; --cmd-orange2:#bed3df;
+  --cmd-blue:#7da9cf; --cmd-blue2:#b8dbf1; --cmd-green:#89b4bc;
+  --accent:#9cb8cb; --accent2:#a7bed2; --line:#33475c;
+}
+html[data-da-theme="steel-night"] body{
+  background:linear-gradient(135deg,rgba(183,207,229,.025),transparent 46%),
+  repeating-linear-gradient(0deg,rgba(180,194,207,.018) 0 1px,transparent 1px 24px),
+  #080e16 !important;
+}
+html[data-da-theme="steel-night"] .commandHeader{
+  border-color:#526778 !important;
+  background:linear-gradient(180deg,#17222d,#090f18) !important;
+}
+html[data-da-theme="steel-night"] .dxIntro,
+html[data-da-theme="steel-night"] .dxTools{
+  border-color:#455f6b !important;
+  background:linear-gradient(160deg,#182733,#0c1722) !important;
+}
+html[data-da-theme="steel-night"] .dxKicker,
+html[data-da-theme="steel-night"] .dxSummary{color:#b7d2df !important}
+html[data-da-theme="steel-night"] #droidexTab.active{
+  background:linear-gradient(180deg,#526773,#1b3547) !important;
+  border-color:#a1bdc9 !important;
+  box-shadow:inset 0 0 12px rgba(170,205,219,.18) !important;
+}
+html[data-da-theme="steel-night"] #rebirthTab.active{
+  background:linear-gradient(180deg,#6c8294,#283c4e) !important;
+  border-color:#c2d6e1 !important;
+  box-shadow:inset 0 0 10px rgba(187,214,226,.2) !important;
+}
+html[data-da-theme="steel-night"] #fusionTab.active{
+  background:linear-gradient(180deg,#4d7192,#1b354f) !important;
+  border-color:#9ebfd8 !important;
+}
+html[data-da-theme="steel-night"] .fusionCard{
+  border-color:#3c5768 !important;
+  background:linear-gradient(145deg,#162330,#0b1521) !important;
+}
+/* Deliberately DO NOT override .dxVariant, .sellPlate, rarity colors, or
+   source-specific badges: their colors convey real game meaning. */

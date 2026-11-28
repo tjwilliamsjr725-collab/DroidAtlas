@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "steel-night",
+  "name": "Steel Night",
+  "version": "0.1.0",
+  "status": "preview-only",
+  "css": "./themes/steel-night/theme.css",
+  "artwork": {
+    "chromeFrames": "Reuses existing production chrome; no source artwork is replaced"
+  },
+  "notes": "Experimental shell-color proof of concept; variant colors and acquisition indicators retain meaning."
+}

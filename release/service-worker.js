@@ -1,5 +1,5 @@
-const CACHE_NAME='droidatlas-1.2.6-data-20261127-rb39-v1';
-const APP_SHELL=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+const CACHE_NAME='droidatlas-1.2.6-theme-engine-preview-v1';
+const APP_SHELL=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./themes/manifest.json","./themes/engine.js","./themes/theme-engine.css","./themes/default/theme.css","./themes/default/theme.json","./themes/steel-night/theme.css","./themes/steel-night/theme.json"];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(APP_SHELL)).then(()=>self.skipWaiting()));
 });
