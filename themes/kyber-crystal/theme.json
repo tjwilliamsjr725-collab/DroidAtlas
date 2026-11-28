@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "kyber-crystal",
+  "name": "Kyber Crystal",
+  "version": "0.1.0",
+  "status": "approved-default",
+  "css": "./themes/kyber-crystal/theme.css",
+  "artwork": {
+    "existingChromeFrames": "Embedded in the stable production UI, unchanged",
+    "kyberPlaque": "../../artwork/kyber-plaques/kyber-green-concept-v1.png"
+  },
+  "notes": "Compatibility theme: intentionally zero visual overrides; the approved base art remains pixel-equivalent until the future asset extraction phase."
+}
