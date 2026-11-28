@@ -50,3 +50,9 @@ The player-supplied screenshot confirms the already recorded **4.500Qa** credits
 ## Verified in game: Path 4 / RB39 (2026-11-27)
 
 The player-supplied screenshot confirms **8.000Qa** credits (numerically the app's **8Qa**) and Kyber variants of **Proto-Roller, B2-RP, Snow Mouse**. DroidAtlas 1.2.6 changes the credits and requirements evidence labels to **Verified in game**, without changing the existing requirements. Screenshot rewards are 500B credits, +380% multiplier, +300% EXP, Offline +60:00 (no further interpretation), and 300 Nova Crystals. The current app records rewards as evidence notes only. The screenshot's ownership checkmarks apply to the pictured player and must not alter Droidex acquisition history.
+
+## Next batch staged: all 28 Fusion recipes IGV (2026-11-27)
+
+The project owner reports that all 28 currently listed Fusion recipes have been checked directly in-game by the project's trusted tester. The exact 28-result scope and attestation are recorded in `production-update/fusion-verification.json`. The generator now labels only these 28 recipe cards `IGV · Verified in game`; future recipes require separate verification and will not automatically receive that status. Regression checks in `tests/fusion-igv.cjs` enforce this invariant.
+
+**Staging only:** This change is on a batch-development branch, not the published production app. The live production baseline remains v1.2.6 until the next batch release, when the queued Path 4 / RB40 verification and other confirmed corrections can be combined and tested together. No Rebirth values, collection keys, art, or live website files are changed by the documentation update.
