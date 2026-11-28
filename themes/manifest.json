@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "defaultTheme": "kyber-crystal",
+  "defaultTheme": "default",
   "themes": [
     {
-      "id": "kyber-crystal",
-      "name": "Kyber Crystal",
-      "description": "Approved original green Kyber crystal artwork and chrome frame. Default look.",
-      "css": "./themes/kyber-crystal/theme.css",
-      "package": "./themes/kyber-crystal/theme.json"
+      "id": "default",
+      "name": "Default",
+      "description": "Original Denver Broncos-inspired orange-and-blue DroidAtlas command theme. Preserved as-is.",
+      "css": "./themes/default/theme.css",
+      "package": "./themes/default/theme.json"
     },
     {
       "id": "steel-night",
