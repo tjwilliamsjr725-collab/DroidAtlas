@@ -43,6 +43,13 @@ jobs:
           assert 'theme-engine-preview' in Path('service-worker.js').read_text()
           print('PASS: working core data retained; two local packages; default Kyber unchanged; offline assets staged')
           PY
+      - name: Upload tested theme preview folder
+        uses: actions/upload-artifact@v4
+        with:
+          name: DroidAtlas-Theme-Engine-v0.1-Preview
+          path: release/
+          retention-days: 30
+          if-no-files-found: error
       - name: Commit generated theme preview only to feature branch
         run: |
           git config user.name 'github-actions[bot]'
